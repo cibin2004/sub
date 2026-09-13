@@ -1,1 +1,1 @@
-vless://1369139a-4c10-4b4c-a3b6-bdc911292f50@193.34.76.44:443?type=ws&security=tls&host=lovely-chicken-0.loca.lt&sni=lovely-chicken-0.loca.lt&path=/vl&encryption=none&fp=chrome#protonomk
+vless://1369139a-4c10-4b4c-a3b6-bdc911292f50@193.34.76.44:443?type=ws&security=tls&host=protonomk-x.loca.lt&sni=protonomk-x.loca.lt&path=/vl&encryption=none&fp=chrome#protonomk
