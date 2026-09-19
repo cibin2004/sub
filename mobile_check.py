@@ -258,11 +258,12 @@ def main():
             continue
         rec = {"uri": uri, "source": srcname,
                "mobile": c["mobile"], "via": c["via"], "details": c["details"]}
-        report["nodes"].append(rec)
         if c["mobile"]:
             mobile.append(uri)
+            report["nodes"].append(rec)
         elif c["mobile"] is False:
             n_black += 1
+            report["nodes"].append(rec)
         else:
             n_unknown += 1
 
