@@ -10,8 +10,6 @@ hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443/
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org&insecure=0
-hysteria2://hysteria2_fastlane_cfm7kzssa%3AOHDpvCARUv5xvE07caQIrVo6IpqRkgkq@84.23.54.203:1935?sni=ru2.h.smartaisupport.ru
-hysteria2://hysteria2_fastlane_f6dt3q19m%3AvqCgcZnSL76jftd4853Sq8pUCmsYIjTJ@87.239.111.109:1935?sni=ru2.h.smartaisupport.ru
 vless://11aabba0-5fd1-4f15-8068-74c1a466cefc@193.163.203.170:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.ru&fp=chrome&pbk=GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o&sid=b28db60d77c50b4f&type=tcp&headerType=none
 vless://11aabba0-5fd1-4f15-8068-74c1a466cefc@193.163.203.170:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.ru&pbk=GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o&sid=b28db60d77c50b4f&type=tcp&headerType=none
 vless://1c332eae-7e02-4acd-996d-4eb3e652401c@144.31.50.236:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=yandex.ru&fp=chrome&security=reality&pbk=uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM&sid=bbe46bd8f6b96839
@@ -28,11 +26,6 @@ vless://8fdf6dde-a1ca-456d-9b18-86b74d5768e6@45.131.212.28:443?security=reality&
 vless://953358cb-82ba-4296-960d-6d2ec3468f4c@193.148.57.60:24444?security=reality&encryption=none&pbk=l84FK9JIi4Bx-mhBZIm4K4Td5V_ekOobJmkvNAvklSM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yandex.ru&sid=107acb307423c5aa
 vless://953358cb-82ba-4296-960d-6d2ec3468f4c@217.19.122.17:10654?mode=auto&path=/xhttp_client_upload&security=reality&encryption=none&pbk=ds10ztOlMn8xfeIKEQ1m3I-tdem-abZbHKtJCU13CQM&fp=chrome&type=xhttp&sni=bl3fk52.sysopnova.art&sid=5c3fb122
 vless://Fluffy_VPN-Oth8rOq3@138.16.185.27:443?security=reality&encryption=none&pbk=879p0H6n4rszvZ0O_TAJ-I5qH24a2Wkm03wYIF_jqiI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ya.ru
-vless://a82aa132-5ccc-4b3d-a219-bfd8a1993d59@94.228.166.164:463?encryption=none&pbk=2LhhfOTB7zeLJ-0s9aGNkISP3MmC2EV7odwrSVcdQww&security=reality&serviceName=google.android.location.SyncService&sid=53c7983cfd&sni=yandex.ru&type=grpc&fp=android
-vless://a82aa132-5ccc-4b3d-a219-bfd8a1993d59@94.228.166.164:463?encryption=none&pbk=2LhhfOTB7zeLJ-0s9aGNkISP3MmC2EV7odwrSVcdQww&security=reality&serviceName=google.android.location.SyncService&sid=53c7983cfd&sni=yandex.ru&type=grpc&fp=chrome
-vless://a82aa132-5ccc-4b3d-a219-bfd8a1993d59@94.228.166.164:463?encryption=none&pbk=2LhhfOTB7zeLJ-0s9aGNkISP3MmC2EV7odwrSVcdQww&security=reality&serviceName=google.android.location.SyncService&sid=53c7983cfd&sni=yandex.ru&type=grpc&fp=firefox
-vless://a82aa132-5ccc-4b3d-a219-bfd8a1993d59@94.228.166.164:463?encryption=none&pbk=2LhhfOTB7zeLJ-0s9aGNkISP3MmC2EV7odwrSVcdQww&security=reality&serviceName=google.android.location.SyncService&sid=53c7983cfd&sni=yandex.ru&type=grpc&fp=ios
-vless://a82aa132-5ccc-4b3d-a219-bfd8a1993d59@94.228.166.164:463?encryption=none&pbk=2LhhfOTB7zeLJ-0s9aGNkISP3MmC2EV7odwrSVcdQww&security=reality&serviceName=google.android.location.SyncService&sid=53c7983cfd&sni=yandex.ru&type=grpc&fp=qq
 vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@77.232.41.149:443?mode=auto&path=/web/cdn/v2/assets&security=reality&encryption=none&pbk=2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE&host=ya.ru&fp=chrome&type=xhttp&sni=ya.ru&sid=2b5b1ffa8a6a1a68
 vless://b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb@77.232.43.195:443?mode=auto&path=/web/cdn/v2/assets&security=reality&encryption=none&pbk=2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE&fp=chrome&type=xhttp&sni=ya.ru&sid=2b5b1ffa8a6a1a68
 vless://bdc4d14a-2315-4d4e-9fbb-c692cc14da3f@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=android
@@ -40,9 +33,4 @@ vless://bdc4d14a-2315-4d4e-9fbb-c692cc14da3f@95.129.236.239:443?alpn=http%2F1.1&
 vless://bdc4d14a-2315-4d4e-9fbb-c692cc14da3f@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=edge
 vless://bdc4d14a-2315-4d4e-9fbb-c692cc14da3f@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=ios
 vless://bdc4d14a-2315-4d4e-9fbb-c692cc14da3f@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=safari
-vless://c748ab70-a175-4ff3-94e6-5b7090f6c891@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=android
-vless://c748ab70-a175-4ff3-94e6-5b7090f6c891@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=chrome
-vless://c748ab70-a175-4ff3-94e6-5b7090f6c891@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=firefox
-vless://c748ab70-a175-4ff3-94e6-5b7090f6c891@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=ios
-vless://c748ab70-a175-4ff3-94e6-5b7090f6c891@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=safari
 vless://cd60668d-28d0-4070-8179-47ad0d151dd5@82.202.247.181:443?security=reality&encryption=none&pbk=vZ22ThhkpXUd5-tY-v5TTrouLHjgYYmeQgqeLt7HRz0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yandex.ru
