@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-20T17:56:55Z",
+ "generated": "2026-09-20T18:57:14Z",
  "white_24_count": 10,
  "black_24_count": 77,
  "sni_count": 37,
- "pool_count": 9284,
+ "pool_count": 9299,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -73,13 +73,6 @@
    "details": []
   },
   {
-   "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?sni=hy.quattro-tech.ru",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
    "uri": "hysteria2://6aab8efdf13945829ae3699c342be406@31.76.80.69:443?security=tls&obfs=salamander&obfs-password=uw9b2qq5rx&insecure=0&sni=fiproxy1.lockdwn.com",
    "source": "All_Configs_Sub.txt",
    "mobile": false,
@@ -96,11 +89,55 @@
    "details": []
   },
   {
+   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "in_community_white_list",
+   "details": []
+  },
+  {
    "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0",
    "source": "igareck_all",
    "mobile": true,
    "via": "in_community_white_list",
    "details": []
+  },
+  {
+   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org&insecure=0",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "in_community_white_list",
+   "details": []
+  },
+  {
+   "uri": "hysteria2://hysteria2_fastlane_cfm7kzssa:OHDpvCARUv5xvE07caQIrVo6IpqRkgkq@84.23.54.203:1935?sni=ru2.h.smartaisupport.ru",
+   "source": "igareck_checked",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:84.23.54.203",
+    "sni_white:ru2.h.smartaisupport.ru"
+   ]
+  },
+  {
+   "uri": "hysteria2://hysteria2_fastlane_f6dt3q19m:vqCgcZnSL76jftd4853Sq8pUCmsYIjTJ@87.239.111.109:1935?insecure=1&sni=ru2.h.smartaisupport.ru&alpn=h3",
+   "source": "igareck_checked",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:87.239.111.109",
+    "sni_white:ru2.h.smartaisupport.ru"
+   ]
+  },
+  {
+   "uri": "hysteria2://hysteria2_fastlane_f6dt3q19m:vqCgcZnSL76jftd4853Sq8pUCmsYIjTJ@87.239.111.109:1935?sni=ru2.h.smartaisupport.ru",
+   "source": "igareck_checked",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:87.239.111.109",
+    "sni_white:ru2.h.smartaisupport.ru"
+   ]
   },
   {
    "uri": "trojan://d5bee0afdbc500b8cda02d80@nl2.pleiades.codes:2053?alpn=h2,http/1.1",
@@ -605,7 +642,7 @@
    ]
   }
  ],
- "mobile_count": 28,
+ "mobile_count": 32,
  "black_count": 37,
- "unknown_count": 9219
+ "unknown_count": 9230
 }
