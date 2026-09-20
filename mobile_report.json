@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-20T19:57:40Z",
+ "generated": "2026-09-20T20:57:50Z",
  "white_24_count": 10,
  "black_24_count": 77,
  "sni_count": 37,
@@ -431,9 +431,9 @@
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:162.249.126.197",
-    "cidr_black:162.249.126.197",
-    "cidr_black:162.249.126.197"
+    "cidr_black:162.249.126.82",
+    "cidr_black:162.249.126.82",
+    "cidr_black:162.249.126.82"
    ]
   },
   {
@@ -480,12 +480,12 @@
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:104.18.41.190",
-    "cidr_black:104.18.41.190",
-    "cidr_black:104.18.41.190",
     "cidr_black:172.64.146.66",
     "cidr_black:172.64.146.66",
-    "cidr_black:172.64.146.66"
+    "cidr_black:172.64.146.66",
+    "cidr_black:104.18.41.190",
+    "cidr_black:104.18.41.190",
+    "cidr_black:104.18.41.190"
    ]
   },
   {
