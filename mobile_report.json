@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-20T06:45:00Z",
+ "generated": "2026-09-20T06:50:49Z",
  "white_24_count": 10,
  "black_24_count": 78,
  "sni_count": 37,
@@ -702,12 +702,12 @@
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:104.18.21.69",
-    "cidr_black:104.18.21.69",
-    "cidr_black:104.18.21.69",
     "cidr_black:104.18.20.69",
     "cidr_black:104.18.20.69",
-    "cidr_black:104.18.20.69"
+    "cidr_black:104.18.20.69",
+    "cidr_black:104.18.21.69",
+    "cidr_black:104.18.21.69",
+    "cidr_black:104.18.21.69"
    ]
   },
   {
