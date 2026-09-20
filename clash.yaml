@@ -20,16 +20,16 @@ proxies:
     udp: true
   - Wi-Fi 02
     type: vless
-    server: cfvvv-ev1.pages.dev
+    server: 144.31.125.60
     port: 443
-    uuid: 44eae030-290b-4083-8102-6f8bab05701b
+    uuid: 9015f0bc-2053-4ca1-9b9b-a018b97b32d2
+    flow: xtls-rprx-vision
     tls: true
-    servername: cfvvv-ev1.pages.dev
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cfvvv-ev1.pages.dev
+    servername: www.intel.com
+    reality-opts:
+      public-key: SVgtyuD9khylgHuB0treGekxVSHPOS-wPZTNHUf6zj8
+      short-id: 85c86a9863
+    client-fingerprint: chrome
     udp: true
   - Wi-Fi 03
     type: vless
@@ -59,6 +59,19 @@ proxies:
     udp: true
   - Wi-Fi 05
     type: vless
+    server: cfvvv-ev1.pages.dev
+    port: 443
+    uuid: 44eae030-290b-4083-8102-6f8bab05701b
+    tls: true
+    servername: cfvvv-ev1.pages.dev
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cfvvv-ev1.pages.dev
+    udp: true
+  - Wi-Fi 06
+    type: vless
     server: square-salad-ebde.zdfgvccfguuyggg.workers.dev
     port: 8443
     uuid: 31aa0950-eb19-45ff-94a2-af416deb3b90
@@ -70,7 +83,7 @@ proxies:
       headers:
         Host: square-salad-ebde.zdfgvccfguuyggg.workers.dev
     udp: true
-  - Wi-Fi 06
+  - Wi-Fi 07
     type: vless
     server: 137.184.218.169
     port: 36925
@@ -83,7 +96,7 @@ proxies:
       short-id: 
     client-fingerprint: chrome
     udp: true
-  - Wi-Fi 07
+  - Wi-Fi 08
     type: vless
     server: 138.124.60.146
     port: 443
@@ -96,7 +109,7 @@ proxies:
       short-id: 
     client-fingerprint: chrome
     udp: true
-  - Wi-Fi 08
+  - Wi-Fi 09
     type: vless
     server: 130.107.73.148
     port: 41373
@@ -109,7 +122,7 @@ proxies:
       short-id: 0e
     client-fingerprint: chrome
     udp: true
-  - Wi-Fi 09
+  - Wi-Fi 10
     type: vless
     server: odd-violet-5440.asdgrweeee13.workers.dev
     port: 443
@@ -122,16 +135,21 @@ proxies:
       headers:
         Host: odd-violet-5440.asdgrweeee13.workers.dev
     udp: true
-  - Wi-Fi 10
-    type: vless
-    server: 144.31.5.64
-    port: 443
-    uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-    flow: xtls-rprx-vision
-    tls: true
-    servername: pl6.moritech.net
-    udp: true
   - Wi-Fi 11
+    type: vless
+    server: 134.122.154.210
+    port: 443
+    uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
+    tls: false
+    udp: true
+  - Wi-Fi 12
+    type: vless
+    server: 137.220.221.179
+    port: 443
+    uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+    tls: false
+    udp: true
+  - Wi-Fi 13
     type: vless
     server: 146.235.16.130
     port: 19825
@@ -144,7 +162,7 @@ proxies:
       short-id: 6ba85179e30d4fc2
     client-fingerprint: chrome
     udp: true
-  - Wi-Fi 12
+  - Wi-Fi 14
     type: vless
     server: 107.181.151.241
     port: 443
@@ -157,28 +175,14 @@ proxies:
       short-id: fc994ae7eb10
     client-fingerprint: chrome
     udp: true
-  - Wi-Fi 13
+  - Wi-Fi 15
     type: vless
-    server: 137.220.221.179
-    port: 443
-    uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-    tls: false
-    udp: true
-  - Wi-Fi 14
-    type: vless
-    server: 144.31.5.3
+    server: 144.31.5.64
     port: 443
     uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
     flow: xtls-rprx-vision
     tls: true
-    servername: pl4.moritech.net
-    udp: true
-  - Wi-Fi 15
-    type: vless
-    server: 134.122.154.210
-    port: 443
-    uuid: 7f549a50-4655-46b6-962d-183cfc532fc9
-    tls: false
+    servername: pl6.moritech.net
     udp: true
   - Автообход 01
     type: vless
@@ -197,18 +201,16 @@ proxies:
     udp: true
   - Автообход 02
     type: vless
-    server: 2.26.9.243
-    port: 3454
-    uuid: 5adaf80e-2347-481f-84cb-46109d582c95
+    server: 193.163.203.170
+    port: 443
+    uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+    flow: xtls-rprx-vision
     tls: true
     servername: yandex.ru
     reality-opts:
-      public-key: Bz2EFAfox-uD9nn8qAVKy86A1kDKO2OpYQhMO4fCrCg
-      short-id: 159b4efc
+      public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+      short-id: b28db60d77c50b4f
     client-fingerprint: chrome
-    network: grpc
-    grpc-opts:
-      grpc-service-name: google.android.location.SyncService
     udp: true
   - Автообход 03
     type: vless
@@ -225,16 +227,18 @@ proxies:
     udp: true
   - Автообход 04
     type: vless
-    server: 193.163.203.170
-    port: 443
-    uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
-    flow: xtls-rprx-vision
+    server: 2.26.9.243
+    port: 3454
+    uuid: 5adaf80e-2347-481f-84cb-46109d582c95
     tls: true
     servername: yandex.ru
     reality-opts:
-      public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
-      short-id: b28db60d77c50b4f
+      public-key: Bz2EFAfox-uD9nn8qAVKy86A1kDKO2OpYQhMO4fCrCg
+      short-id: 159b4efc
     client-fingerprint: chrome
+    network: grpc
+    grpc-opts:
+      grpc-service-name: google.android.location.SyncService
     udp: true
 
 proxy-groups:
