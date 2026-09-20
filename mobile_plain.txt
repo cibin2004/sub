@@ -10,7 +10,6 @@ hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443/
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org&insecure=0
-hysteria2://hysteria2_fastlane_cfm7kzssa%3AOHDpvCARUv5xvE07caQIrVo6IpqRkgkq@84.23.54.203:1935?sni=ru2.h.smartaisupport.ru
 hysteria2://hysteria2_fastlane_f6dt3q19m%3AvqCgcZnSL76jftd4853Sq8pUCmsYIjTJ@87.239.111.109:1935?sni=ru2.h.smartaisupport.ru
 hysteria2://hysteria2_fastlane_f6dt3q19m:vqCgcZnSL76jftd4853Sq8pUCmsYIjTJ@87.239.111.109:1935?insecure=1&sni=ru2.h.smartaisupport.ru&alpn=h3
 vless://11aabba0-5fd1-4f15-8068-74c1a466cefc@193.163.203.170:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.ru&fp=chrome&pbk=GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o&sid=b28db60d77c50b4f&type=tcp&headerType=none
@@ -22,6 +21,7 @@ vless://37cec958-22ac-4d99-aee2-48facd8d84d7@144.31.57.48:4143?mode=gun&security
 vless://3ba36a4e-9542-43d3-85c1-9f0177972231@45.131.212.62:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fi.sellflow.org&fp=chrome&security=reality&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=&packetEncoding=xudp
 vless://3ba36a4e-9542-43d3-85c1-9f0177972231@45.131.212.62:443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=fi.sellflow.org
 vless://47d9b534-8a0a-4bd2-90f1-1d6ade14427e@150.241.101.80:8443/?type=raw&encryption=none&flow=xtls-rprx-vision&sni=yandex.net&fp=chrome&security=reality&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2&packetEncoding=xudp
+vless://47d9b534-8a0a-4bd2-90f1-1d6ade14427e@150.241.101.80:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.net&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2&type=tcp&headerType=none
 vless://47d9b534-8a0a-4bd2-90f1-1d6ade14427e@150.241.101.80:8443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yandex.net&sid=6ba85179e30d4fc2
 vless://5adaf80e-2347-481f-84cb-46109d582c95@2.26.9.243:3454?mode=gun&security=reality&encryption=none&pbk=Bz2EFAfox-uD9nn8qAVKy86A1kDKO2OpYQhMO4fCrCg&fp=chrome&type=grpc&serviceName=google.android.location.SyncService&sni=yandex.ru&sid=159b4efc
 vless://7412605e-18de-4b34-af4e-82e9f544cc24@95.85.231.231:42321?security=reality&encryption=none&pbk=C8lo017EXpVnG_TxCYibs_NBzbgoW-61IQH4qZhHGmw&headerType=none&type=tcp&sni=www.github.com&sid=3f080f861d7f
