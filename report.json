@@ -1,100 +1,95 @@
 {
- "generated": "2026-09-21T14:50:05Z",
+ "generated": "2026-09-21T15:50:30Z",
  "wifi_count": 15,
- "mobile_count": 3,
+ "mobile_count": 2,
  "autobhod": "urltest group over mobile nodes",
  "candidates": 2059,
- "prob_ok": 25,
+ "prob_ok": 26,
  "nodes": [
   {
    "role": "wifi",
    "host": "144.31.168.95",
-   "rtt_ms": 32
+   "rtt_ms": 36
   },
   {
    "role": "wifi",
    "host": "152.228.162.19",
-   "rtt_ms": 60
+   "rtt_ms": 62
   },
   {
    "role": "wifi",
    "host": "104.21.33.59",
-   "rtt_ms": 78
+   "rtt_ms": 75
   },
   {
    "role": "wifi",
    "host": "145.223.68.58",
-   "rtt_ms": 96
-  },
-  {
-   "role": "wifi",
-   "host": "150.251.113.34",
-   "rtt_ms": 170
-  },
-  {
-   "role": "wifi",
-   "host": "137.184.218.169",
-   "rtt_ms": 390
+   "rtt_ms": 229
   },
   {
    "role": "wifi",
    "host": "159.89.87.21",
-   "rtt_ms": 394
+   "rtt_ms": 360
+  },
+  {
+   "role": "wifi",
+   "host": "137.184.218.169",
+   "rtt_ms": 368
   },
   {
    "role": "wifi",
    "host": "138.124.60.146",
-   "rtt_ms": 418
+   "rtt_ms": 411
   },
   {
    "role": "wifi",
    "host": "130.107.73.148",
-   "rtt_ms": 454
+   "rtt_ms": 460
   },
   {
    "role": "wifi",
-   "host": "150.40.126.24",
-   "rtt_ms": 533
-  },
-  {
-   "role": "wifi",
-   "host": "150.40.126.22",
-   "rtt_ms": 637
-  },
-  {
-   "role": "wifi",
-   "host": "15.204.97.195",
-   "rtt_ms": 639
+   "host": "144.31.5.64",
+   "rtt_ms": 471
   },
   {
    "role": "wifi",
    "host": "15.204.97.216",
-   "rtt_ms": 653
+   "rtt_ms": 632
+  },
+  {
+   "role": "wifi",
+   "host": "150.40.126.18",
+   "rtt_ms": 648
   },
   {
    "role": "wifi",
    "host": "15.204.97.206",
-   "rtt_ms": 682
+   "rtt_ms": 655
   },
   {
    "role": "wifi",
-   "host": "150.40.126.21",
-   "rtt_ms": 710
+   "host": "15.204.97.195",
+   "rtt_ms": 663
   },
   {
-   "role": "mobile",
-   "host": "150.241.101.80",
-   "rtt_ms": 387
+   "role": "wifi",
+   "host": "150.40.126.19",
+   "rtt_ms": 676
   },
   {
-   "role": "mobile",
-   "host": "144.31.50.236",
-   "rtt_ms": 632
+   "role": "wifi",
+   "host": "146.235.16.130",
+   "rtt_ms": 823
   },
   {
    "role": "mobile",
    "host": "193.163.203.170",
-   "rtt_ms": 1787
+   "rtt_ms": 689
+  },
+  {
+   "role": "mobile",
+   "host": "144.31.50.236",
+   "rtt_ms": 1694
   }
  ]
 }
