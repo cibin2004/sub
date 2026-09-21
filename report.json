@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T21:52:02Z",
+ "generated": "2026-09-21T22:52:17Z",
  "wifi_count": 15,
  "mobile_count": 2,
  "autobhod": "urltest group over mobile nodes",
@@ -9,27 +9,22 @@
   {
    "role": "wifi",
    "host": "144.31.168.95",
-   "rtt_ms": 27
+   "rtt_ms": 31
+  },
+  {
+   "role": "wifi",
+   "host": "144.31.125.60",
+   "rtt_ms": 53
   },
   {
    "role": "wifi",
    "host": "152.228.162.19",
-   "rtt_ms": 65
+   "rtt_ms": 60
   },
   {
    "role": "wifi",
-   "host": "104.21.33.59",
-   "rtt_ms": 68
-  },
-  {
-   "role": "wifi",
-   "host": "145.223.68.58",
-   "rtt_ms": 108
-  },
-  {
-   "role": "wifi",
-   "host": "150.40.126.19",
-   "rtt_ms": 232
+   "host": "150.40.126.21",
+   "rtt_ms": 229
   },
   {
    "role": "wifi",
@@ -38,58 +33,63 @@
   },
   {
    "role": "wifi",
-   "host": "150.40.126.22",
+   "host": "150.40.126.24",
    "rtt_ms": 233
   },
   {
    "role": "wifi",
-   "host": "150.40.126.21",
-   "rtt_ms": 235
+   "host": "150.40.126.19",
+   "rtt_ms": 237
   },
   {
    "role": "wifi",
-   "host": "150.40.126.24",
-   "rtt_ms": 235
+   "host": "150.40.126.22",
+   "rtt_ms": 237
   },
   {
    "role": "wifi",
    "host": "137.184.218.169",
-   "rtt_ms": 356
+   "rtt_ms": 350
   },
   {
    "role": "wifi",
    "host": "159.89.87.21",
-   "rtt_ms": 358
+   "rtt_ms": 352
+  },
+  {
+   "role": "wifi",
+   "host": "147.182.212.232",
+   "rtt_ms": 356
   },
   {
    "role": "wifi",
    "host": "138.124.60.146",
-   "rtt_ms": 428
+   "rtt_ms": 410
   },
   {
    "role": "wifi",
    "host": "130.107.73.148",
-   "rtt_ms": 475
+   "rtt_ms": 458
   },
   {
    "role": "wifi",
-   "host": "144.31.2.33",
-   "rtt_ms": 634
-  },
-  {
-   "role": "wifi",
-   "host": "15.204.97.195",
+   "host": "15.204.97.216",
    "rtt_ms": 635
+  },
+  {
+   "role": "wifi",
+   "host": "15.204.97.206",
+   "rtt_ms": 637
   },
   {
    "role": "mobile",
    "host": "150.241.101.80",
-   "rtt_ms": 594
+   "rtt_ms": 327
   },
   {
    "role": "mobile",
    "host": "193.163.203.170",
-   "rtt_ms": 1043
+   "rtt_ms": 684
   }
  ]
 }
