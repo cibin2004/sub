@@ -7,19 +7,6 @@ ipv6: false
 proxies:
   - Wi-Fi 01
     type: vless
-    server: 144.31.168.95
-    port: 443
-    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-    flow: xtls-rprx-vision
-    tls: true
-    servername: eu-central.cendora.ru
-    reality-opts:
-      public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-      short-id: 00bca5982f82d083
-    client-fingerprint: chrome
-    udp: true
-  - Wi-Fi 02
-    type: vless
     server: 144.31.125.60
     port: 443
     uuid: 9015f0bc-2053-4ca1-9b9b-a018b97b32d2
@@ -29,6 +16,19 @@ proxies:
     reality-opts:
       public-key: SVgtyuD9khylgHuB0treGekxVSHPOS-wPZTNHUf6zj8
       short-id: 85c86a9863
+    client-fingerprint: chrome
+    udp: true
+  - Wi-Fi 02
+    type: vless
+    server: 144.31.168.95
+    port: 443
+    uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+    flow: xtls-rprx-vision
+    tls: true
+    servername: eu-central.cendora.ru
+    reality-opts:
+      public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+      short-id: 00bca5982f82d083
     client-fingerprint: chrome
     udp: true
   - Wi-Fi 03
@@ -45,6 +45,28 @@ proxies:
     udp: true
   - Wi-Fi 04
     type: vless
+    server: 144.31.5.64
+    port: 443
+    uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+    flow: xtls-rprx-vision
+    tls: true
+    servername: pl6.moritech.net
+    udp: true
+  - Wi-Fi 05
+    type: vless
+    server: 150.251.113.34
+    port: 443
+    uuid: d7d724b5-17ce-4f3c-877d-dfbf0f07afa1
+    flow: xtls-rprx-vision
+    tls: true
+    servername: www.cloudflare.com
+    reality-opts:
+      public-key: 8yMLSTbkpJFfbgTjNzotzz7U8OT6AERrclgKdKrXXW8
+      short-id: 150a627d15154cf2
+    client-fingerprint: chrome
+    udp: true
+  - Wi-Fi 06
+    type: vless
     server: 150.40.126.21
     port: 443
     uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
@@ -58,52 +80,7 @@ proxies:
     grpc-opts:
       grpc-service-name: edge.v2.FeedService
     udp: true
-  - Wi-Fi 05
-    type: vless
-    server: 150.40.126.18
-    port: 443
-    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-    tls: true
-    servername: rs1.univesalsrv.com
-    reality-opts:
-      public-key: upIzyaSbVz2ZK6KfGtXmPl_-sCwn8XLDyFDH5CsL9iY
-      short-id: ed0cd5cc2e26e6e7
-    client-fingerprint: chrome
-    network: grpc
-    grpc-opts:
-      grpc-service-name: node.v2.ObjectService
-    udp: true
-  - Wi-Fi 06
-    type: vless
-    server: 150.40.126.24
-    port: 443
-    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-    tls: true
-    servername: rs5.univesalsrv.com
-    reality-opts:
-      public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
-      short-id: 4872856d5489c37d
-    client-fingerprint: chrome
-    network: grpc
-    grpc-opts:
-      grpc-service-name: gw.v1.ObjectService
-    udp: true
   - Wi-Fi 07
-    type: vless
-    server: 150.40.126.19
-    port: 443
-    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-    tls: true
-    servername: rs2.univesalsrv.com
-    reality-opts:
-      public-key: tL16MVY08r-7YDXb1_gxuBBWInpSFp97ZLJ_ax3R2iE
-      short-id: 1469af2040b7c323
-    client-fingerprint: chrome
-    network: grpc
-    grpc-opts:
-      grpc-service-name: media.v1.ObjectService
-    udp: true
-  - Wi-Fi 08
     type: vless
     server: 150.40.126.22
     port: 443
@@ -118,7 +95,61 @@ proxies:
     grpc-opts:
       grpc-service-name: media.v1.StreamService
     udp: true
+  - Wi-Fi 08
+    type: vless
+    server: 150.40.126.18
+    port: 443
+    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+    tls: true
+    servername: rs1.univesalsrv.com
+    reality-opts:
+      public-key: upIzyaSbVz2ZK6KfGtXmPl_-sCwn8XLDyFDH5CsL9iY
+      short-id: ed0cd5cc2e26e6e7
+    client-fingerprint: chrome
+    network: grpc
+    grpc-opts:
+      grpc-service-name: node.v2.ObjectService
+    udp: true
   - Wi-Fi 09
+    type: vless
+    server: 150.40.126.24
+    port: 443
+    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+    tls: true
+    servername: rs5.univesalsrv.com
+    reality-opts:
+      public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
+      short-id: 4872856d5489c37d
+    client-fingerprint: chrome
+    network: grpc
+    grpc-opts:
+      grpc-service-name: gw.v1.ObjectService
+    udp: true
+  - Wi-Fi 10
+    type: vless
+    server: 150.40.126.19
+    port: 443
+    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+    tls: true
+    servername: rs2.univesalsrv.com
+    reality-opts:
+      public-key: tL16MVY08r-7YDXb1_gxuBBWInpSFp97ZLJ_ax3R2iE
+      short-id: 1469af2040b7c323
+    client-fingerprint: chrome
+    network: grpc
+    grpc-opts:
+      grpc-service-name: media.v1.ObjectService
+    udp: true
+  - Wi-Fi 11
+    type: vless
+    server: 144.31.5.3
+    port: 443
+    uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+    flow: xtls-rprx-vision
+    tls: true
+    servername: pl4.moritech.net
+    udp: true
+  - Wi-Fi 12
     type: vless
     server: 137.184.218.169
     port: 36925
@@ -131,20 +162,7 @@ proxies:
       short-id: 
     client-fingerprint: chrome
     udp: true
-  - Wi-Fi 10
-    type: vless
-    server: 159.89.87.21
-    port: 28190
-    uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
-    flow: xtls-rprx-vision
-    tls: true
-    servername: aws.amazon.com
-    reality-opts:
-      public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
-      short-id: 
-    client-fingerprint: chrome
-    udp: true
-  - Wi-Fi 11
+  - Wi-Fi 13
     type: vless
     server: 147.182.212.232
     port: 56565
@@ -157,7 +175,20 @@ proxies:
       short-id: 
     client-fingerprint: chrome
     udp: true
-  - Wi-Fi 12
+  - Wi-Fi 14
+    type: vless
+    server: 159.89.87.21
+    port: 28190
+    uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
+    flow: xtls-rprx-vision
+    tls: true
+    servername: aws.amazon.com
+    reality-opts:
+      public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
+      short-id: 
+    client-fingerprint: chrome
+    udp: true
+  - Wi-Fi 15
     type: vless
     server: 138.124.60.146
     port: 443
@@ -168,45 +199,6 @@ proxies:
     reality-opts:
       public-key: mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0
       short-id: 
-    client-fingerprint: chrome
-    udp: true
-  - Wi-Fi 13
-    type: vless
-    server: 130.107.73.148
-    port: 41373
-    uuid: a71c8954-66a8-4321-bedb-2336230d81ce
-    flow: xtls-rprx-vision
-    tls: true
-    servername: google.com
-    reality-opts:
-      public-key: m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU
-      short-id: 0e
-    client-fingerprint: chrome
-    udp: true
-  - Wi-Fi 14
-    type: vless
-    server: 15.204.97.216
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    flow: xtls-rprx-vision
-    tls: true
-    servername: fuck.rkn
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: 01
-    client-fingerprint: chrome
-    udp: true
-  - Wi-Fi 15
-    type: vless
-    server: 15.204.97.206
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    flow: xtls-rprx-vision
-    tls: true
-    servername: fuck.rkn
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: 01
     client-fingerprint: chrome
     udp: true
   - Автообход 01
@@ -223,6 +215,19 @@ proxies:
     client-fingerprint: chrome
     udp: true
   - Автообход 02
+    type: vless
+    server: 144.31.50.236
+    port: 443
+    uuid: 1c332eae-7e02-4acd-996d-4eb3e652401c
+    flow: xtls-rprx-vision
+    tls: true
+    servername: yandex.ru
+    reality-opts:
+      public-key: uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM
+      short-id: bbe46bd8f6b96839
+    client-fingerprint: chrome
+    udp: true
+  - Автообход 03
     type: vless
     server: 193.163.203.170
     port: 443
@@ -245,6 +250,7 @@ proxy-groups:
     proxies:
       - Автообход 01
       - Автообход 02
+      - Автообход 03
   - name: Протономк
     type: select
     proxies:
