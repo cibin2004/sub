@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-21T13:38:42Z",
+ "generated": "2026-09-21T14:38:45Z",
  "white_24_count": 10,
  "black_24_count": 77,
  "sni_count": 37,
- "pool_count": 9405,
+ "pool_count": 9398,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -123,42 +123,15 @@
    "details": []
   },
   {
-   "uri": "hysteria2://hysteria2_fastlane_cfm7kzssa:OHDpvCARUv5xvE07caQIrVo6IpqRkgkq@84.23.54.203:1935?insecure=1&sni=ru2.h.smartaisupport.ru&alpn=h3",
-   "source": "igareck_checked",
+   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org&insecure=0",
+   "source": "igareck_all",
    "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:84.23.54.203",
-    "sni_white:ru2.h.smartaisupport.ru"
-   ]
-  },
-  {
-   "uri": "hysteria2://hysteria2_fastlane_cfm7kzssa:OHDpvCARUv5xvE07caQIrVo6IpqRkgkq@84.23.54.203:1935?sni=ru2.h.smartaisupport.ru",
-   "source": "igareck_checked",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:84.23.54.203",
-    "sni_white:ru2.h.smartaisupport.ru"
-   ]
+   "via": "in_community_white_list",
+   "details": []
   },
   {
    "uri": "trojan://3c6d1933-b22a-484b-ac8a-63e24f5fba75@jp3.998998.best:443?security=tls&sni=nat11.outsidemyheart.space&type=ws&path=/w4e5yh0p945y3&Host=nat11.outsidemyheart.space",
    "source": "sub_merge_base64.txt",
-   "mobile": false,
-   "via": "cidr_black",
-   "details": [
-    "cidr_black:172.64.146.66",
-    "cidr_black:172.64.146.66",
-    "cidr_black:172.64.146.66",
-    "cidr_black:104.18.41.190",
-    "cidr_black:104.18.41.190",
-    "cidr_black:104.18.41.190"
-   ]
-  },
-  {
-   "uri": "vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@cf.877774.xyz:443?allowInsecure=1&encryption=none&fp=chrome&host=free.cndyw.ggff.net&path=/?ed=2560&security=tls&sni=free.cndyw.ggff.net&type=ws",
-   "source": "All_Configs_Sub.txt",
    "mobile": false,
    "via": "cidr_black",
    "details": [
@@ -168,6 +141,20 @@
     "cidr_black:172.64.146.66",
     "cidr_black:172.64.146.66",
     "cidr_black:172.64.146.66"
+   ]
+  },
+  {
+   "uri": "vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@cf.877774.xyz:443?allowInsecure=1&encryption=none&fp=chrome&host=free.cndyw.ggff.net&path=/?ed=2560&security=tls&sni=free.cndyw.ggff.net&type=ws",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "cidr_black",
+   "details": [
+    "cidr_black:172.64.146.66",
+    "cidr_black:172.64.146.66",
+    "cidr_black:172.64.146.66",
+    "cidr_black:104.18.41.190",
+    "cidr_black:104.18.41.190",
+    "cidr_black:104.18.41.190"
    ]
   },
   {
@@ -466,9 +453,9 @@
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:162.249.126.83",
-    "cidr_black:162.249.126.83",
-    "cidr_black:162.249.126.83"
+    "cidr_black:162.249.126.203",
+    "cidr_black:162.249.126.203",
+    "cidr_black:162.249.126.203"
    ]
   },
   {
@@ -581,7 +568,7 @@
    ]
   }
  ],
- "mobile_count": 30,
+ "mobile_count": 29,
  "black_count": 31,
- "unknown_count": 9344
+ "unknown_count": 9338
 }
