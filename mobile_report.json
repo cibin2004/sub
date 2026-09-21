@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-20T21:57:55Z",
+ "generated": "2026-09-21T07:36:43Z",
  "white_24_count": 10,
  "black_24_count": 77,
  "sni_count": 37,
- "pool_count": 9352,
+ "pool_count": 9449,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -42,6 +42,16 @@
    "details": []
   },
   {
+   "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=1&sni=91.240.86.70",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:91.240.86.70",
+    "sni_white:91.240.86.70"
+   ]
+  },
+  {
    "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=91.240.86.70&insecure=1&alpn=h3",
    "source": "igareck_all",
    "mobile": true,
@@ -50,7 +60,7 @@
   },
   {
    "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=hy.quattro-tech.ru",
-   "source": "igareck_mobile",
+   "source": "igareck_all",
    "mobile": true,
    "via": "cidr_white",
    "details": [
@@ -73,6 +83,16 @@
    "details": []
   },
   {
+   "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?insecure=1&sni=hy.quattro-tech.ru&alpn=h3",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:91.240.86.70",
+    "sni_white:hy.quattro-tech.ru"
+   ]
+  },
+  {
    "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?sni=hy.quattro-tech.ru",
    "source": "igareck_all",
    "mobile": true,
@@ -89,25 +109,28 @@
    ]
   },
   {
-   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443/",
-   "source": "igareck_mobile",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
    "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0",
-   "source": "igareck_mobile",
+   "source": "igareck_all",
    "mobile": true,
    "via": "in_community_white_list",
    "details": []
   },
   {
    "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org&insecure=0",
-   "source": "igareck_mobile",
+   "source": "igareck_all",
    "mobile": true,
    "via": "in_community_white_list",
    "details": []
+  },
+  {
+   "uri": "hysteria2://hysteria2_fastlane_cfm7kzssa:OHDpvCARUv5xvE07caQIrVo6IpqRkgkq@84.23.54.203:1935?insecure=1&sni=ru2.h.smartaisupport.ru&alpn=h3",
+   "source": "igareck_checked",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:84.23.54.203",
+    "sni_white:ru2.h.smartaisupport.ru"
+   ]
   },
   {
    "uri": "hysteria2://hysteria2_fastlane_cfm7kzssa:OHDpvCARUv5xvE07caQIrVo6IpqRkgkq@84.23.54.203:1935?sni=ru2.h.smartaisupport.ru",
@@ -120,32 +143,45 @@
    ]
   },
   {
-   "uri": "hysteria2://hysteria2_fastlane_f6dt3q19m:vqCgcZnSL76jftd4853Sq8pUCmsYIjTJ@87.239.111.109:1935?insecure=1&sni=ru2.h.smartaisupport.ru&alpn=h3",
-   "source": "igareck_checked",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:87.239.111.109",
-    "sni_white:ru2.h.smartaisupport.ru"
-   ]
-  },
-  {
-   "uri": "hysteria2://hysteria2_fastlane_f6dt3q19m:vqCgcZnSL76jftd4853Sq8pUCmsYIjTJ@87.239.111.109:1935?sni=ru2.h.smartaisupport.ru",
-   "source": "igareck_checked",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:87.239.111.109",
-    "sni_white:ru2.h.smartaisupport.ru"
-   ]
-  },
-  {
-   "uri": "trojan://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@46.229.243.154:4443?security=tls&sni=grape-turbo-fr.roxa.org",
+   "uri": "trojan://3c6d1933-b22a-484b-ac8a-63e24f5fba75@jp3.998998.best:443?security=tls&sni=nat11.outsidemyheart.space&type=ws&path=/w4e5yh0p945y3&Host=nat11.outsidemyheart.space",
    "source": "sub_merge_base64.txt",
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:46.229.243.154"
+    "cidr_black:104.18.41.190",
+    "cidr_black:104.18.41.190",
+    "cidr_black:104.18.41.190",
+    "cidr_black:172.64.146.66",
+    "cidr_black:172.64.146.66",
+    "cidr_black:172.64.146.66"
+   ]
+  },
+  {
+   "uri": "vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@cf.877774.xyz:443?allowInsecure=1&encryption=none&fp=chrome&host=free.cndyw.ggff.net&path=/?ed=2560&security=tls&sni=free.cndyw.ggff.net&type=ws",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "cidr_black",
+   "details": [
+    "cidr_black:104.18.41.190",
+    "cidr_black:104.18.41.190",
+    "cidr_black:104.18.41.190",
+    "cidr_black:172.64.146.66",
+    "cidr_black:172.64.146.66",
+    "cidr_black:172.64.146.66"
+   ]
+  },
+  {
+   "uri": "vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@www.wto.org:443?allowInsecure=1&encryption=none&fp=chrome&host=free.cndyw.ggff.net&path=/?ed=2560&security=tls&sni=free.cndyw.ggff.net&type=ws",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "cidr_black",
+   "details": [
+    "cidr_black:104.18.41.190",
+    "cidr_black:104.18.41.190",
+    "cidr_black:104.18.41.190",
+    "cidr_black:172.64.146.66",
+    "cidr_black:172.64.146.66",
+    "cidr_black:172.64.146.66"
    ]
   },
   {
@@ -239,6 +275,28 @@
    ]
   },
   {
+   "uri": "vless://3bff8ab5-5718-49d9-bc79-6e4468cb45c3@takefin.serveroff.net:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&fp=chrome&spx=/AhmadV2ray&fm=AhmadV2ray&encryption=none&pbk=Ean56I1ZAGD67m6VW-qXZ77bXsE5ClwvYLuQNyXRyH8&type=tcp&sid=832d9228ddd3&security=reality&sni=&flow=xtls-rprx-vision&headerType=none",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "cidr_black",
+   "details": [
+    "cidr_black:144.31.150.145",
+    "cidr_black:144.31.150.145",
+    "cidr_black:144.31.150.145"
+   ]
+  },
+  {
+   "uri": "vless://3bff8ab5-5718-49d9-bc79-6e4468cb45c3@takefin.serveroff.net:443?fp=chrome&spx=/AhmadV2ray&fm=AhmadV2ray&encryption=none&pbk=Ean56I1ZAGD67m6VW-qXZ77bXsE5ClwvYLuQNyXRyH8&type=tcp&sid=832d9228ddd3&security=reality&sni=takefin.serveroff.net&flow=xtls-rprx-vision&headerType=none",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "cidr_black",
+   "details": [
+    "cidr_black:144.31.150.145",
+    "cidr_black:144.31.150.145",
+    "cidr_black:144.31.150.145"
+   ]
+  },
+  {
    "uri": "vless://47d9b534-8a0a-4bd2-90f1-1d6ade14427e@150.241.101.80:8443/?type=raw&encryption=none&flow=xtls-rprx-vision&sni=yandex.net&fp=chrome&security=reality&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2&packetEncoding=xudp",
    "source": "All_Configs_Sub.txt",
    "mobile": true,
@@ -275,65 +333,6 @@
    ]
   },
   {
-   "uri": "vless://5fe7036c-e9ef-4dfa-aa19-8db2b3d592c9@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=chrome",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:95.129.236.239",
-    "sni_white:wiki.solarinfra.net"
-   ]
-  },
-  {
-   "uri": "vless://5fe7036c-e9ef-4dfa-aa19-8db2b3d592c9@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=edge",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:95.129.236.239",
-    "sni_white:wiki.solarinfra.net"
-   ]
-  },
-  {
-   "uri": "vless://5fe7036c-e9ef-4dfa-aa19-8db2b3d592c9@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=firefox",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:95.129.236.239",
-    "sni_white:wiki.solarinfra.net"
-   ]
-  },
-  {
-   "uri": "vless://5fe7036c-e9ef-4dfa-aa19-8db2b3d592c9@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=ios",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:95.129.236.239",
-    "sni_white:wiki.solarinfra.net"
-   ]
-  },
-  {
-   "uri": "vless://5fe7036c-e9ef-4dfa-aa19-8db2b3d592c9@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=qq",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:95.129.236.239",
-    "sni_white:wiki.solarinfra.net"
-   ]
-  },
-  {
-   "uri": "vless://6a9f6c23-2b38-4720-9305-337f494f50a4@89.124.86.136:443?security=reality&encryption=none&pbk=sDRCeB3zqd45KqOaZFn6uxZZ98xT-5JcZ9eXzM2QSAE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=stats.vk-portal.net&sid=398ca550",
-   "source": "All_Configs_Sub.txt",
-   "mobile": false,
-   "via": "cidr_black",
-   "details": [
-    "cidr_black:89.124.86.136"
-   ]
-  },
-  {
    "uri": "vless://6a9f6c23-2b38-4720-9305-337f494f50a4@89.124.86.136:443?security=reality&encryption=none&pbk=sDRCeB3zqd45KqOaZFn6uxZZ98xT-5JcZ9eXzM2QSAE&host=MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN---MTMVPN/proxyip=us.xiabibi.cf&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=stats.vk-portal.net&sid=398ca550",
    "source": "All_Configs_Sub.txt",
    "mobile": false,
@@ -343,31 +342,11 @@
    ]
   },
   {
-   "uri": "vless://71b91642-93ed-4923-8cab-877e19bfc2d6@103.139.51.21:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24&security=reality&sid=711ad7f475c35e5e&sni=auth.figmafound.org&type=tcp",
-   "source": "All_Configs_Sub.txt",
-   "mobile": false,
-   "via": "cidr_black",
-   "details": [
-    "cidr_black:103.139.51.21"
-   ]
-  },
-  {
    "uri": "vless://71b91642-93ed-4923-8cab-877e19bfc2d6@103.139.51.21:443?security=reality&encryption=none&pbk=H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=auth.figmafound.org&sid=711ad7f475c35e5e",
    "source": "All_Configs_Sub.txt",
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:103.139.51.21"
-   ]
-  },
-  {
-   "uri": "vless://71b91642-93ed-4923-8cab-877e19bfc2d6@auth.figmafound.org:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=H5CXI4RvEWW0TFPvFrnF1iX-05Y57ZYMMngjmkMfv24&security=reality&sid=711ad7f475c35e5e&sni=auth.figmafound.org&type=tcp",
-   "source": "All_Configs_Sub.txt",
-   "mobile": false,
-   "via": "cidr_black",
-   "details": [
-    "cidr_black:103.139.51.21",
-    "cidr_black:103.139.51.21",
     "cidr_black:103.139.51.21"
    ]
   },
@@ -482,17 +461,14 @@
    ]
   },
   {
-   "uri": "vless://918958c6-2d9d-428a-9b40-4cc0fd039685@www.visa.com.hk:8080?type=ws&host=23ksdo-still-unit-07a7.beq2frqi.workers.dev&ed=2048",
+   "uri": "vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@cdn7-39.vk-cdnvideo.com:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0",
    "source": "All_Configs_Sub.txt",
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:104.18.21.69",
-    "cidr_black:104.18.21.69",
-    "cidr_black:104.18.21.69",
-    "cidr_black:104.18.20.69",
-    "cidr_black:104.18.20.69",
-    "cidr_black:104.18.20.69"
+    "cidr_black:162.249.126.39",
+    "cidr_black:162.249.126.39",
+    "cidr_black:162.249.126.39"
    ]
   },
   {
@@ -505,97 +481,12 @@
    ]
   },
   {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=android",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=edge",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=firefox",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=ios",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=safari",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
    "uri": "vless://9d9a048b-3aea-4b3e-b106-1106bf301feb@54.251.9.130:24146?security=reality&encryption=none&pbk=VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.intel.com&sid=7205d9079521832c",
    "source": "All_Configs_Sub.txt",
    "mobile": false,
    "via": "cidr_black",
    "details": [
     "cidr_black:54.251.9.130"
-   ]
-  },
-  {
-   "uri": "vless://b1346aad-8d2b-4b06-a3cf-e20399c3ebd2@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=chrome",
-   "source": "igareck_mobile",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:95.129.236.239",
-    "sni_white:wiki.solarinfra.net"
-   ]
-  },
-  {
-   "uri": "vless://b1346aad-8d2b-4b06-a3cf-e20399c3ebd2@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=edge",
-   "source": "igareck_mobile",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:95.129.236.239",
-    "sni_white:wiki.solarinfra.net"
-   ]
-  },
-  {
-   "uri": "vless://b1346aad-8d2b-4b06-a3cf-e20399c3ebd2@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=firefox",
-   "source": "igareck_mobile",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:95.129.236.239",
-    "sni_white:wiki.solarinfra.net"
-   ]
-  },
-  {
-   "uri": "vless://b1346aad-8d2b-4b06-a3cf-e20399c3ebd2@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=ios",
-   "source": "igareck_mobile",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:95.129.236.239",
-    "sni_white:wiki.solarinfra.net"
-   ]
-  },
-  {
-   "uri": "vless://b1346aad-8d2b-4b06-a3cf-e20399c3ebd2@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=safari",
-   "source": "igareck_mobile",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:95.129.236.239",
-    "sni_white:wiki.solarinfra.net"
    ]
   },
   {
@@ -624,12 +515,12 @@
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:104.18.41.190",
-    "cidr_black:104.18.41.190",
-    "cidr_black:104.18.41.190",
     "cidr_black:172.64.146.66",
     "cidr_black:172.64.146.66",
-    "cidr_black:172.64.146.66"
+    "cidr_black:172.64.146.66",
+    "cidr_black:104.18.41.190",
+    "cidr_black:104.18.41.190",
+    "cidr_black:104.18.41.190"
    ]
   },
   {
@@ -676,21 +567,61 @@
    ]
   },
   {
+   "uri": "vless://f51c8a2f-feea-4dcb-864f-4a5f34f4db03@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=android",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239",
+    "sni_white:wiki.solarinfra.net"
+   ]
+  },
+  {
+   "uri": "vless://f51c8a2f-feea-4dcb-864f-4a5f34f4db03@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=chrome",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239",
+    "sni_white:wiki.solarinfra.net"
+   ]
+  },
+  {
+   "uri": "vless://f51c8a2f-feea-4dcb-864f-4a5f34f4db03@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=edge",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239",
+    "sni_white:wiki.solarinfra.net"
+   ]
+  },
+  {
+   "uri": "vless://f51c8a2f-feea-4dcb-864f-4a5f34f4db03@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=wiki.solarinfra.net&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=wiki.solarinfra.net&type=ws&fp=ios",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239",
+    "sni_white:wiki.solarinfra.net"
+   ]
+  },
+  {
    "uri": "vless://f94a04aa-a98c-4b6c-8fe2-7290d81c500a@www.visa.com.hk:443?path=/announcement/?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=ap-south.xhs152.shop&fp=chrome&type=ws&allowInsecure=0&sni=ap-south.xhs152.shop",
    "source": "All_Configs_Sub.txt",
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:104.18.21.69",
-    "cidr_black:104.18.21.69",
-    "cidr_black:104.18.21.69",
     "cidr_black:104.18.20.69",
     "cidr_black:104.18.20.69",
-    "cidr_black:104.18.20.69"
+    "cidr_black:104.18.20.69",
+    "cidr_black:104.18.21.69",
+    "cidr_black:104.18.21.69",
+    "cidr_black:104.18.21.69"
    ]
   }
  ],
- "mobile_count": 45,
- "black_count": 30,
- "unknown_count": 9277
+ "mobile_count": 34,
+ "black_count": 31,
+ "unknown_count": 9384
 }
