@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-21T22:42:14Z",
+ "generated": "2026-09-21T23:42:27Z",
  "white_24_count": 10,
  "black_24_count": 77,
  "sni_count": 37,
- "pool_count": 9421,
+ "pool_count": 9376,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -40,6 +40,16 @@
    "mobile": true,
    "via": "in_community_white_list",
    "details": []
+  },
+  {
+   "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=1&sni=91.240.86.70",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:91.240.86.70",
+    "sni_white:91.240.86.70"
+   ]
   },
   {
    "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=91.240.86.70&insecure=1&alpn=h3",
@@ -99,14 +109,7 @@
    ]
   },
   {
-   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443/",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
-   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0",
+   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org&insecure=0",
    "source": "igareck_all",
    "mobile": true,
    "via": "in_community_white_list",
@@ -157,24 +160,6 @@
    "via": "sni_white",
    "details": [
     "sni_white:yandex.ru"
-   ]
-  },
-  {
-   "uri": "vless://1cbb3702-b434-45cf-8520-3e32d860fd83@193.17.92.57:2053?security=reality&encryption=none&pbk=G7VlRXdpKKaZ_33pA0Zsii70uiYkeoBiVYgAD_tL_28&fp=chrome&type=grpc&serviceName=grpc-fd03cd54&sni=vk.com&sid=76f9d74c385ae618",
-   "source": "All_Configs_Sub.txt",
-   "mobile": true,
-   "via": "sni_white",
-   "details": [
-    "sni_white:vk.com"
-   ]
-  },
-  {
-   "uri": "vless://30235bbe-f791-4e53-89f9-5d9363af9b0a@172.64.146.66:443?path=/&security=tls&encryption=none&insecure=0&host=sie704.pages.dev&fp=chrome&type=ws&allowInsecure=0&sni=sie704.pages.dev",
-   "source": "All_Configs_Sub.txt",
-   "mobile": false,
-   "via": "cidr_black",
-   "details": [
-    "cidr_black:172.64.146.66"
    ]
   },
   {
@@ -232,6 +217,15 @@
    ]
   },
   {
+   "uri": "vless://4bdeee92-97e8-414d-bef6-ec1d5e2ab73b@2.27.210.32:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=latisha.loozerp.wiki&fp=chrome&pbk=bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk&sid=ff776ff77be48b88&type=tcp&headerType=none",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "cidr_black",
+   "details": [
+    "cidr_black:2.27.210.32"
+   ]
+  },
+  {
    "uri": "vless://4bdeee92-97e8-414d-bef6-ec1d5e2ab73b@5.157.10.147:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA&security=reality&sid=fb442438e2223836&sni=svvedko.nxxzxaw.beer&type=tcp",
    "source": "All_Configs_Sub.txt",
    "mobile": false,
@@ -239,6 +233,13 @@
    "details": [
     "cidr_black:5.157.10.147"
    ]
+  },
+  {
+   "uri": "vless://4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5@34.176.98.128:443?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw&sid=d7676b6a468a03b3&type=tcp&headerType=none",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "in_community_black_list",
+   "details": []
   },
   {
    "uri": "vless://5adaf80e-2347-481f-84cb-46109d582c95@2.26.9.243:3454?mode=gun&security=reality&encryption=none&pbk=Bz2EFAfox-uD9nn8qAVKy86A1kDKO2OpYQhMO4fCrCg&fp=chrome&type=grpc&serviceName=google.android.location.SyncService&sni=yandex.ru&sid=159b4efc",
@@ -289,6 +290,15 @@
   },
   {
    "uri": "vless://77777777-8a3e-6666-b6d1-a9c5f0e8b3a2@172.64.146.211:2083?security=tls&type=ws&path=/&host=faxf32gkfzoxqv.fx6hsv0.ccwu.cc&sni=faxf32gkfzoxqv.fx6hsv0.ccwu.cc&fp=chrome&encryption=none",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "cidr_black",
+   "details": [
+    "cidr_black:172.64.146.211"
+   ]
+  },
+  {
+   "uri": "vless://77777777-8a3e-6666-b6d1-a9c5f0e8b3a2@172.64.146.211:8443?&security=tls&fp=chrome&sni=faxf32gkfzoxqv.fx6hsv0.ccwu.cc&type=ws&headerType=none&host=faxf32gkfzoxqv.fx6hsv0.ccwu.cc&path=/",
    "source": "All_Configs_Sub.txt",
    "mobile": false,
    "via": "cidr_black",
@@ -392,9 +402,9 @@
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:162.249.126.201",
-    "cidr_black:162.249.126.201",
-    "cidr_black:162.249.126.201"
+    "cidr_black:46.229.243.148",
+    "cidr_black:46.229.243.148",
+    "cidr_black:46.229.243.148"
    ]
   },
   {
@@ -404,6 +414,17 @@
    "via": "sni_white",
    "details": [
     "sni_white:yandex.ru"
+   ]
+  },
+  {
+   "uri": "vless://9bbd487f-8f84-4ad7-b897-681c3f7d95dc@ciccuc.mervi.icu:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=3J-u0CiyQk47zVzkuMVgOiVIYtomNZPr__85MDxGxVw&security=reality&sid=5029592ae5516948&sni=ciccuc.mervi.icu&type=tcp",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "cidr_black",
+   "details": [
+    "cidr_black:2.27.210.39",
+    "cidr_black:2.27.210.39",
+    "cidr_black:2.27.210.39"
    ]
   },
   {
@@ -425,17 +446,6 @@
    ]
   },
   {
-   "uri": "vless://b18d5990-96eb-4587-a386-7f8ef7591e6a@pl-waw.dontblockmepls.com:2063?security=reality&encryption=none&pbk=MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=rusbid.de",
-   "source": "All_Configs_Sub.txt",
-   "mobile": false,
-   "via": "cidr_black",
-   "details": [
-    "cidr_black:31.77.13.19",
-    "cidr_black:31.77.13.19",
-    "cidr_black:31.77.13.19"
-   ]
-  },
-  {
    "uri": "vless://bca46025-bf43-40c0-895b-054a6fbcfd32@172.235.38.85:42942?security=reality&encryption=none&pbk=JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.tesla.com&sid=a56d7d8da977f860",
    "source": "All_Configs_Sub.txt",
    "mobile": false,
@@ -449,6 +459,15 @@
    "via": "sni_white",
    "details": [
     "sni_white:yandex.ru"
+   ]
+  },
+  {
+   "uri": "vless://d544c858-b1ba-45b2-8868-8197daf2a6ee@31.76.80.230:8443/?type=ws&encryption=none&flow=&path=/assets&security=tls&sni=fin.luxes.network&alpn=http/1.1&fp=chrome",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "cidr_black",
+   "details": [
+    "cidr_black:31.76.80.230"
    ]
   },
   {
@@ -486,23 +505,9 @@
    "details": [
     "cidr_black:5.157.10.250"
    ]
-  },
-  {
-   "uri": "vless://f94a04aa-a98c-4b6c-8fe2-7290d81c500a@www.visa.com.hk:443?path=/announcement/?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=ap-south.xhs152.shop&fp=chrome&type=ws&allowInsecure=0&sni=ap-south.xhs152.shop",
-   "source": "All_Configs_Sub.txt",
-   "mobile": false,
-   "via": "cidr_black",
-   "details": [
-    "cidr_black:104.18.20.69",
-    "cidr_black:104.18.20.69",
-    "cidr_black:104.18.20.69",
-    "cidr_black:104.18.21.69",
-    "cidr_black:104.18.21.69",
-    "cidr_black:104.18.21.69"
-   ]
   }
  ],
- "mobile_count": 26,
- "black_count": 29,
- "unknown_count": 9366
+ "mobile_count": 25,
+ "black_count": 31,
+ "unknown_count": 9320
 }
