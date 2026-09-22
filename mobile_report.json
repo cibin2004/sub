@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-22T06:44:13Z",
+ "generated": "2026-09-22T07:44:21Z",
  "white_24_count": 10,
  "black_24_count": 77,
  "sni_count": 37,
- "pool_count": 9390,
+ "pool_count": 9326,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -32,6 +32,16 @@
    "via": "sni_white",
    "details": [
     "sni_white:vk.com"
+   ]
+  },
+  {
+   "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=0&sni=itsallproxy.quattro-tech.ru",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:91.240.86.70",
+    "sni_white:itsallproxy.quattro-tech.ru"
    ]
   },
   {
@@ -76,13 +86,6 @@
    "details": []
   },
   {
-   "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=itsallproxy.quattro-tech.ru",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
    "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?insecure=1&sni=hy.quattro-tech.ru&alpn=h3",
    "source": "igareck_all",
    "mobile": true,
@@ -109,7 +112,7 @@
    ]
   },
   {
-   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0",
+   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443/",
    "source": "igareck_all",
    "mobile": true,
    "via": "in_community_white_list",
@@ -124,6 +127,17 @@
   },
   {
    "uri": "vless://026f58a9-b36e-4204-8f8d-54c5374163da@app16.betust.net:443?security=reality&encryption=none&pbk=KLLLqRfvP1K9ul0JfmHAaLS4EtUfj0gbngRgjsOWMB0&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=app16.betust.net&sid=ff9ec6f5",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "cidr_black",
+   "details": [
+    "cidr_black:88.216.130.205",
+    "cidr_black:88.216.130.205",
+    "cidr_black:88.216.130.205"
+   ]
+  },
+  {
+   "uri": "vless://026f58a9-b36e-4204-8f8d-54c5374163da@app16.betust.net:443?security=reality&encryption=none&pbk=KLLLqRfvP1K9ul0JfmHAaLS4EtUfj0gbngRgjsOWMB0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=app16.betust.net&sid=ff9ec6f5",
    "source": "All_Configs_Sub.txt",
    "mobile": false,
    "via": "cidr_black",
@@ -170,6 +184,15 @@
    ]
   },
   {
+   "uri": "vless://3710fc0f-5f0c-4b9c-a5d4-40cb419e943a@144.31.93.231:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=WKN5yaRN05O2WdCURXRmS-yBVYaabaFWOvGudX6ohWc&security=reality&sid=b97e7d4582b6fa6e&sni=yandex.ru&type=tcp",
+   "source": "All_Configs_Sub.txt",
+   "mobile": true,
+   "via": "sni_white",
+   "details": [
+    "sni_white:yandex.ru"
+   ]
+  },
+  {
    "uri": "vless://37cec958-22ac-4d99-aee2-48facd8d84d7@144.31.57.48:4143?mode=gun&security=reality&encryption=none&pbk=EB4Ay55d7wUDYVTfDNXg2sX2PxWqNqsyivR4fGcELDo&fp=chrome&type=grpc&serviceName=google.android.location.SyncService&sni=yandex.ru&sid=ad63",
    "source": "All_Configs_Sub.txt",
    "mobile": true,
@@ -206,6 +229,26 @@
    ]
   },
   {
+   "uri": "vless://3bff8ab5-5718-49d9-bc79-6e4468cb45c3@takefin.serveroff.net:443?fp=chrome&spx=/AhmadV2ray&fm=AhmadV2ray&encryption=none&pbk=Ean56I1ZAGD67m6VW-qXZ77bXsE5ClwvYLuQNyXRyH8&type=tcp&sid=832d9228ddd3&security=reality&sni=takefin.serveroff.net&flow=xtls-rprx-vision&headerType=none",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "cidr_black",
+   "details": [
+    "cidr_black:144.31.150.145",
+    "cidr_black:144.31.150.145",
+    "cidr_black:144.31.150.145"
+   ]
+  },
+  {
+   "uri": "vless://47d9b534-8a0a-4bd2-90f1-1d6ade14427e@150.241.101.17:8443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=yandex.net&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2",
+   "source": "All_Configs_Sub.txt",
+   "mobile": true,
+   "via": "sni_white",
+   "details": [
+    "sni_white:yandex.net"
+   ]
+  },
+  {
    "uri": "vless://47d9b534-8a0a-4bd2-90f1-1d6ade14427e@150.241.101.80:8443/?type=raw&encryption=none&flow=xtls-rprx-vision&sni=yandex.net&fp=chrome&security=reality&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2&packetEncoding=xudp",
    "source": "All_Configs_Sub.txt",
    "mobile": true,
@@ -215,7 +258,7 @@
    ]
   },
   {
-   "uri": "vless://47d9b534-8a0a-4bd2-90f1-1d6ade14427e@150.241.101.80:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.net&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2&type=tcp&headerType=none",
+   "uri": "vless://47d9b534-8a0a-4bd2-90f1-1d6ade14427e@150.241.101.80:8443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yandex.net&sid=6ba85179e30d4fc2",
    "source": "All_Configs_Sub.txt",
    "mobile": true,
    "via": "sni_white",
@@ -233,15 +276,6 @@
    ]
   },
   {
-   "uri": "vless://4bdeee92-97e8-414d-bef6-ec1d5e2ab73b@2.27.210.32:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=latisha.loozerp.wiki&fp=chrome&pbk=bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk&sid=ff776ff77be48b88&type=tcp&headerType=none",
-   "source": "All_Configs_Sub.txt",
-   "mobile": false,
-   "via": "cidr_black",
-   "details": [
-    "cidr_black:2.27.210.32"
-   ]
-  },
-  {
    "uri": "vless://4bdeee92-97e8-414d-bef6-ec1d5e2ab73b@5.157.10.147:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=x6p656szvu_3CKLsJ4NtkooRvdTVGx7IoPca_p58_jA&security=reality&sid=fb442438e2223836&sni=svvedko.nxxzxaw.beer&type=tcp",
    "source": "All_Configs_Sub.txt",
    "mobile": false,
@@ -249,13 +283,6 @@
    "details": [
     "cidr_black:5.157.10.147"
    ]
-  },
-  {
-   "uri": "vless://4fe7ceb2-160c-4564-89e6-8f5fd0b05cd5@34.176.98.128:443?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw&sid=d7676b6a468a03b3&type=tcp&headerType=none",
-   "source": "All_Configs_Sub.txt",
-   "mobile": false,
-   "via": "in_community_black_list",
-   "details": []
   },
   {
    "uri": "vless://5adaf80e-2347-481f-84cb-46109d582c95@2.26.9.243:3454?mode=gun&security=reality&encryption=none&pbk=Bz2EFAfox-uD9nn8qAVKy86A1kDKO2OpYQhMO4fCrCg&fp=chrome&type=grpc&serviceName=google.android.location.SyncService&sni=yandex.ru&sid=159b4efc",
@@ -306,15 +333,6 @@
   },
   {
    "uri": "vless://77777777-8a3e-6666-b6d1-a9c5f0e8b3a2@172.64.146.211:2083?security=tls&type=ws&path=/&host=faxf32gkfzoxqv.fx6hsv0.ccwu.cc&sni=faxf32gkfzoxqv.fx6hsv0.ccwu.cc&fp=chrome&encryption=none",
-   "source": "All_Configs_Sub.txt",
-   "mobile": false,
-   "via": "cidr_black",
-   "details": [
-    "cidr_black:172.64.146.211"
-   ]
-  },
-  {
-   "uri": "vless://77777777-8a3e-6666-b6d1-a9c5f0e8b3a2@172.64.146.211:8443?&security=tls&fp=chrome&sni=faxf32gkfzoxqv.fx6hsv0.ccwu.cc&type=ws&headerType=none&host=faxf32gkfzoxqv.fx6hsv0.ccwu.cc&path=/",
    "source": "All_Configs_Sub.txt",
    "mobile": false,
    "via": "cidr_black",
@@ -413,6 +431,17 @@
    ]
   },
   {
+   "uri": "vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@cdn7-39.vk-cdnvideo.com:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "cidr_black",
+   "details": [
+    "cidr_black:162.249.126.203",
+    "cidr_black:162.249.126.203",
+    "cidr_black:162.249.126.203"
+   ]
+  },
+  {
    "uri": "vless://94006a20-6cd6-4751-a14d-c5a0bacb68bb@64.188.79.106:443?security=reality&encryption=none&pbk=dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yandex.ru&sid=992e5a9a",
    "source": "All_Configs_Sub.txt",
    "mobile": true,
@@ -501,7 +530,7 @@
    ]
   }
  ],
- "mobile_count": 27,
+ "mobile_count": 29,
  "black_count": 29,
- "unknown_count": 9334
+ "unknown_count": 9268
 }
