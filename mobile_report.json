@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-22T04:43:54Z",
+ "generated": "2026-09-22T05:44:07Z",
  "white_24_count": 10,
  "black_24_count": 77,
  "sni_count": 37,
- "pool_count": 9430,
+ "pool_count": 9408,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -76,13 +76,6 @@
    "details": []
   },
   {
-   "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=itsallproxy.quattro-tech.ru",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
    "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?insecure=1&sni=hy.quattro-tech.ru&alpn=h3",
    "source": "igareck_all",
    "mobile": true,
@@ -110,13 +103,6 @@
   },
   {
    "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443/",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
-   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0",
    "source": "igareck_all",
    "mobile": true,
    "via": "in_community_white_list",
@@ -203,6 +189,51 @@
    "via": "cidr_black",
    "details": [
     "cidr_black:144.31.150.145"
+   ]
+  },
+  {
+   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@45.8.228.131:2096?alpn=h2&encryption=none&mode=gun&security=tls&serviceName=grpc&sni=vdss.lavivas.org&type=grpc&fp=edge",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:45.8.228.131"
+   ]
+  },
+  {
+   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@45.8.228.131:2096?alpn=h2&encryption=none&mode=gun&security=tls&serviceName=grpc&sni=vdss.lavivas.org&type=grpc&fp=firefox",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:45.8.228.131"
+   ]
+  },
+  {
+   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@45.8.228.131:2096?alpn=h2&encryption=none&mode=gun&security=tls&serviceName=grpc&sni=vdss.lavivas.org&type=grpc&fp=ios",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:45.8.228.131"
+   ]
+  },
+  {
+   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@45.8.228.131:2096?alpn=h2&encryption=none&mode=gun&security=tls&serviceName=grpc&sni=vdss.lavivas.org&type=grpc&fp=qq",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:45.8.228.131"
+   ]
+  },
+  {
+   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@45.8.228.131:2096?alpn=h2&encryption=none&mode=gun&security=tls&serviceName=grpc&sni=vdss.lavivas.org&type=grpc&fp=safari",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:45.8.228.131"
    ]
   },
   {
@@ -418,9 +449,9 @@
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:162.249.126.82",
-    "cidr_black:162.249.126.82",
-    "cidr_black:162.249.126.82"
+    "cidr_black:46.229.243.97",
+    "cidr_black:46.229.243.97",
+    "cidr_black:46.229.243.97"
    ]
   },
   {
@@ -512,7 +543,7 @@
    ]
   }
  ],
- "mobile_count": 27,
+ "mobile_count": 30,
  "black_count": 30,
- "unknown_count": 9373
+ "unknown_count": 9348
 }
