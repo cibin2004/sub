@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-22T20:51:50Z",
+ "generated": "2026-09-22T21:52:22Z",
  "white_24_count": 10,
- "black_24_count": 77,
+ "black_24_count": 76,
  "sni_count": 37,
  "pool_count": 9451,
  "nodes": [
@@ -131,28 +131,6 @@
     "cidr_black:130.78.191.108",
     "cidr_black:130.78.191.108",
     "cidr_black:130.78.191.108"
-   ]
-  },
-  {
-   "uri": "vless://026f58a9-b36e-4204-8f8d-54c5374163da@app16.betust.net:443?security=reality&encryption=none&pbk=KLLLqRfvP1K9ul0JfmHAaLS4EtUfj0gbngRgjsOWMB0&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=app16.betust.net&sid=ff9ec6f5",
-   "source": "All_Configs_Sub.txt",
-   "mobile": false,
-   "via": "cidr_black",
-   "details": [
-    "cidr_black:88.216.130.205",
-    "cidr_black:88.216.130.205",
-    "cidr_black:88.216.130.205"
-   ]
-  },
-  {
-   "uri": "vless://026f58a9-b36e-4204-8f8d-54c5374163da@app16.betust.net:443?security=reality&encryption=none&pbk=KLLLqRfvP1K9ul0JfmHAaLS4EtUfj0gbngRgjsOWMB0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=app16.betust.net&sid=ff9ec6f5",
-   "source": "All_Configs_Sub.txt",
-   "mobile": false,
-   "via": "cidr_black",
-   "details": [
-    "cidr_black:88.216.130.205",
-    "cidr_black:88.216.130.205",
-    "cidr_black:88.216.130.205"
    ]
   },
   {
@@ -435,9 +413,9 @@
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:46.229.243.77",
-    "cidr_black:46.229.243.77",
-    "cidr_black:46.229.243.77"
+    "cidr_black:162.249.126.196",
+    "cidr_black:162.249.126.196",
+    "cidr_black:162.249.126.196"
    ]
   },
   {
@@ -640,6 +618,6 @@
   }
  ],
  "mobile_count": 40,
- "black_count": 30,
- "unknown_count": 9381
+ "black_count": 28,
+ "unknown_count": 9383
 }
