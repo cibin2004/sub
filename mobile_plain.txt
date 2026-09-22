@@ -1,15 +1,12 @@
 hy2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443/
 hy2://qQe1z5kU8kN6SlKnDt9Ru3Qp@54.213.89.22:443?insecure=1&sni=vk.com&type=tcp&allowInsecure=1&upmbps=10&downmbps=50
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=1
+hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?security=tls&insecure=0&sni=hy.quattro-tech.ru
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=91.240.86.70&insecure=1&alpn=h3
-hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=hy.quattro-tech.ru
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=hy.quattro-tech.ru&insecure=1&alpn=h3
-hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=itsallproxy.quattro-tech.ru
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?insecure=1&sni=hy.quattro-tech.ru&alpn=h3
 hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?sni=hy.quattro-tech.ru
-hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443/
-hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0
-hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org&insecure=0
+hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3
 vless://11aabba0-5fd1-4f15-8068-74c1a466cefc@193.163.203.170:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.ru&fp=chrome&pbk=GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o&sid=b28db60d77c50b4f&type=tcp&headerType=none
 vless://11aabba0-5fd1-4f15-8068-74c1a466cefc@193.163.203.170:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.ru&pbk=GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o&sid=b28db60d77c50b4f&type=tcp&headerType=none
 vless://1c332eae-7e02-4acd-996d-4eb3e652401c@144.31.50.236:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=yandex.ru&fp=chrome&security=reality&pbk=uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM&sid=bbe46bd8f6b96839
@@ -25,9 +22,4 @@ vless://851ed0d8-a37b-452d-8ef2-5b6c2d28a060@95.129.236.252:443?path=/api/v2/cam
 vless://8fdf6dde-a1ca-456d-9b18-86b74d5768e6@45.131.212.23:443?encryption=none&security=reality&type=tcp&sni=sellflow.org&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&flow=xtls-rprx-vision
 vless://8fdf6dde-a1ca-456d-9b18-86b74d5768e6@45.131.212.28:443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fr.sellflow.org
 vless://94006a20-6cd6-4751-a14d-c5a0bacb68bb@64.188.79.106:443?security=reality&encryption=none&pbk=dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yandex.ru&sid=992e5a9a
-vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=android
-vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=edge
-vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=firefox
-vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=ios
-vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=safari
 vless://cd60668d-28d0-4070-8179-47ad0d151dd5@82.202.247.181:443?security=reality&encryption=none&pbk=vZ22ThhkpXUd5-tY-v5TTrouLHjgYYmeQgqeLt7HRz0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yandex.ru
