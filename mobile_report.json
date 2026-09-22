@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-22T14:47:31Z",
+ "generated": "2026-09-22T15:48:24Z",
  "white_24_count": 10,
  "black_24_count": 77,
  "sni_count": 37,
- "pool_count": 9410,
+ "pool_count": 9421,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -102,7 +102,21 @@
    ]
   },
   {
+   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443/",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "in_community_white_list",
+   "details": []
+  },
+  {
    "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "in_community_white_list",
+   "details": []
+  },
+  {
+   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0",
    "source": "igareck_all",
    "mobile": true,
    "via": "in_community_white_list",
@@ -230,25 +244,25 @@
    ]
   },
   {
+   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@45.8.228.131:2096?alpn=h2&encryption=none&mode=gun&security=tls&serviceName=grpc&sni=vdss.lavivas.org&type=grpc&fp=android",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:45.8.228.131"
+   ]
+  },
+  {
+   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@45.8.228.131:2096?alpn=h2&encryption=none&mode=gun&security=tls&serviceName=grpc&sni=vdss.lavivas.org&type=grpc&fp=chrome",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:45.8.228.131"
+   ]
+  },
+  {
    "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@45.8.228.131:2096?alpn=h2&encryption=none&mode=gun&security=tls&serviceName=grpc&sni=vdss.lavivas.org&type=grpc&fp=edge",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.131"
-   ]
-  },
-  {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@45.8.228.131:2096?alpn=h2&encryption=none&mode=gun&security=tls&serviceName=grpc&sni=vdss.lavivas.org&type=grpc&fp=firefox",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.131"
-   ]
-  },
-  {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@45.8.228.131:2096?alpn=h2&encryption=none&mode=gun&security=tls&serviceName=grpc&sni=vdss.lavivas.org&type=grpc&fp=ios",
    "source": "igareck_all",
    "mobile": true,
    "via": "cidr_white",
@@ -275,7 +289,7 @@
    ]
   },
   {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@45.8.228.131:8080?alpn=h2&encryption=none&mode=gun&security=tls&serviceName=grpc&sni=vdss.lavivas.org&type=grpc&fp=chrome",
+   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@45.8.228.131:8080?alpn=h2&encryption=none&mode=gun&security=tls&serviceName=grpc&sni=vdss.lavivas.org&type=grpc&fp=android",
    "source": "igareck_all",
    "mobile": true,
    "via": "cidr_white",
@@ -311,7 +325,7 @@
    ]
   },
   {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@45.8.228.131:8080?alpn=h2&encryption=none&mode=gun&security=tls&serviceName=grpc&sni=vdss.lavivas.org&type=grpc&fp=qq",
+   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@45.8.228.131:8080?alpn=h2&encryption=none&mode=gun&security=tls&serviceName=grpc&sni=vdss.lavivas.org&type=grpc&fp=safari",
    "source": "igareck_all",
    "mobile": true,
    "via": "cidr_white",
@@ -320,7 +334,7 @@
    ]
   },
   {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@vdss.lavivas.org:2096/?type=grpc&encryption=none&flow=&serviceName=grpc&security=tls&sni=vdss.lavivas.org&alpn=h2&fp=edge",
+   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@vdss.lavivas.org:2096/?type=grpc&encryption=none&flow=&serviceName=grpc&security=tls&sni=vdss.lavivas.org&alpn=h2&fp=android",
    "source": "igareck_all",
    "mobile": true,
    "via": "cidr_white",
@@ -365,61 +379,6 @@
   },
   {
    "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@vdss.lavivas.org:2096/?type=grpc&encryption=none&flow=&serviceName=grpc&security=tls&sni=vdss.lavivas.org&alpn=h2&fp=safari",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131"
-   ]
-  },
-  {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@vdss.lavivas.org:8080/?type=grpc&encryption=none&flow=&serviceName=grpc&security=tls&sni=vdss.lavivas.org&alpn=h2&fp=edge",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131"
-   ]
-  },
-  {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@vdss.lavivas.org:8080/?type=grpc&encryption=none&flow=&serviceName=grpc&security=tls&sni=vdss.lavivas.org&alpn=h2&fp=firefox",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131"
-   ]
-  },
-  {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@vdss.lavivas.org:8080/?type=grpc&encryption=none&flow=&serviceName=grpc&security=tls&sni=vdss.lavivas.org&alpn=h2&fp=ios",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131"
-   ]
-  },
-  {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@vdss.lavivas.org:8080/?type=grpc&encryption=none&flow=&serviceName=grpc&security=tls&sni=vdss.lavivas.org&alpn=h2&fp=qq",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131"
-   ]
-  },
-  {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@vdss.lavivas.org:8080/?type=grpc&encryption=none&flow=&serviceName=grpc&security=tls&sni=vdss.lavivas.org&alpn=h2&fp=safari",
    "source": "igareck_all",
    "mobile": true,
    "via": "cidr_white",
@@ -681,9 +640,9 @@
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:162.249.126.39",
-    "cidr_black:162.249.126.39",
-    "cidr_black:162.249.126.39"
+    "cidr_black:162.249.126.77",
+    "cidr_black:162.249.126.77",
+    "cidr_black:162.249.126.77"
    ]
   },
   {
@@ -784,7 +743,7 @@
    ]
   }
  ],
- "mobile_count": 52,
+ "mobile_count": 49,
  "black_count": 31,
- "unknown_count": 9327
+ "unknown_count": 9341
 }
