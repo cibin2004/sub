@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-22T00:42:35Z",
+ "generated": "2026-09-22T01:42:51Z",
  "white_24_count": 10,
  "black_24_count": 77,
  "sni_count": 37,
- "pool_count": 9438,
+ "pool_count": 9457,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -93,13 +93,6 @@
    ]
   },
   {
-   "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?sni=hy.quattro-tech.ru",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
    "uri": "hysteria2://6aab8efdf13945829ae3699c342be406@31.76.80.69:443?security=tls&obfs=salamander&obfs-password=uw9b2qq5rx&insecure=0&sni=fiproxy1.lockdwn.com",
    "source": "All_Configs_Sub.txt",
    "mobile": false,
@@ -107,20 +100,6 @@
    "details": [
     "cidr_black:31.76.80.69"
    ]
-  },
-  {
-   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
-   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org&insecure=0",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
   },
   {
    "uri": "vless://026f58a9-b36e-4204-8f8d-54c5374163da@app16.betust.net:443?security=reality&encryption=none&pbk=KLLLqRfvP1K9ul0JfmHAaLS4EtUfj0gbngRgjsOWMB0&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=app16.betust.net&sid=ff9ec6f5",
@@ -206,117 +185,16 @@
    ]
   },
   {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@vdss.lavivas.org:2096/?type=grpc&encryption=none&flow=&serviceName=grpc&security=tls&sni=vdss.lavivas.org&alpn=h2&fp=edge",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131"
-   ]
-  },
-  {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@vdss.lavivas.org:2096/?type=grpc&encryption=none&flow=&serviceName=grpc&security=tls&sni=vdss.lavivas.org&alpn=h2&fp=firefox",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131"
-   ]
-  },
-  {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@vdss.lavivas.org:2096/?type=grpc&encryption=none&flow=&serviceName=grpc&security=tls&sni=vdss.lavivas.org&alpn=h2&fp=ios",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131"
-   ]
-  },
-  {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@vdss.lavivas.org:2096/?type=grpc&encryption=none&flow=&serviceName=grpc&security=tls&sni=vdss.lavivas.org&alpn=h2&fp=qq",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131"
-   ]
-  },
-  {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@vdss.lavivas.org:2096/?type=grpc&encryption=none&flow=&serviceName=grpc&security=tls&sni=vdss.lavivas.org&alpn=h2&fp=safari",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131"
-   ]
-  },
-  {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@vdss.lavivas.org:8080/?type=grpc&encryption=none&flow=&serviceName=grpc&security=tls&sni=vdss.lavivas.org&alpn=h2&fp=chrome",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131"
-   ]
-  },
-  {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@vdss.lavivas.org:8080/?type=grpc&encryption=none&flow=&serviceName=grpc&security=tls&sni=vdss.lavivas.org&alpn=h2&fp=edge",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131"
-   ]
-  },
-  {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@vdss.lavivas.org:8080/?type=grpc&encryption=none&flow=&serviceName=grpc&security=tls&sni=vdss.lavivas.org&alpn=h2&fp=firefox",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131"
-   ]
-  },
-  {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@vdss.lavivas.org:8080/?type=grpc&encryption=none&flow=&serviceName=grpc&security=tls&sni=vdss.lavivas.org&alpn=h2&fp=ios",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131"
-   ]
-  },
-  {
-   "uri": "vless://44e1105d-b46e-402f-933b-eaa136fcbb24@vdss.lavivas.org:8080/?type=grpc&encryption=none&flow=&serviceName=grpc&security=tls&sni=vdss.lavivas.org&alpn=h2&fp=qq",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131",
-    "cidr_white:45.8.228.131"
-   ]
-  },
-  {
    "uri": "vless://47d9b534-8a0a-4bd2-90f1-1d6ade14427e@150.241.101.80:8443/?type=raw&encryption=none&flow=xtls-rprx-vision&sni=yandex.net&fp=chrome&security=reality&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2&packetEncoding=xudp",
+   "source": "All_Configs_Sub.txt",
+   "mobile": true,
+   "via": "sni_white",
+   "details": [
+    "sni_white:yandex.net"
+   ]
+  },
+  {
+   "uri": "vless://47d9b534-8a0a-4bd2-90f1-1d6ade14427e@150.241.101.80:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.net&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2&type=tcp&headerType=none",
    "source": "All_Configs_Sub.txt",
    "mobile": true,
    "via": "sni_white",
@@ -514,12 +392,87 @@
    ]
   },
   {
+   "uri": "vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@cdn7-39.vk-cdnvideo.com:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "cidr_black",
+   "details": [
+    "cidr_black:46.229.243.96",
+    "cidr_black:46.229.243.96",
+    "cidr_black:46.229.243.96"
+   ]
+  },
+  {
    "uri": "vless://94006a20-6cd6-4751-a14d-c5a0bacb68bb@64.188.79.106:443?security=reality&encryption=none&pbk=dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yandex.ru&sid=992e5a9a",
    "source": "All_Configs_Sub.txt",
    "mobile": true,
    "via": "sni_white",
    "details": [
     "sni_white:yandex.ru"
+   ]
+  },
+  {
+   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=edge",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "in_community_white_list",
+   "details": []
+  },
+  {
+   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=firefox",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "in_community_white_list",
+   "details": []
+  },
+  {
+   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=ios",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "in_community_white_list",
+   "details": []
+  },
+  {
+   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=safari",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "in_community_white_list",
+   "details": []
+  },
+  {
+   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=dailycanvas.sysopnova.art&type=xhttp&fp=android",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:45.8.228.167"
+   ]
+  },
+  {
+   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=dailycanvas.sysopnova.art&type=xhttp&fp=edge",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:45.8.228.167"
+   ]
+  },
+  {
+   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=dailycanvas.sysopnova.art&type=xhttp&fp=firefox",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:45.8.228.167"
+   ]
+  },
+  {
+   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=dailycanvas.sysopnova.art&type=xhttp&fp=qq",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:45.8.228.167"
    ]
   },
   {
@@ -602,7 +555,7 @@
    ]
   }
  ],
- "mobile_count": 36,
- "black_count": 29,
- "unknown_count": 9373
+ "mobile_count": 32,
+ "black_count": 30,
+ "unknown_count": 9395
 }
