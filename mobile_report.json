@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-23T02:14:37Z",
+ "generated": "2026-09-23T03:15:23Z",
  "white_24_count": 10,
  "black_24_count": 76,
  "sni_count": 37,
- "pool_count": 9344,
+ "pool_count": 9334,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -81,6 +81,13 @@
     "cidr_white:91.240.86.70",
     "sni_white:hy.quattro-tech.ru"
    ]
+  },
+  {
+   "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?sni=hy.quattro-tech.ru",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "in_community_white_list",
+   "details": []
   },
   {
    "uri": "hysteria2://6aab8efdf13945829ae3699c342be406@31.76.80.69:443?security=tls&obfs=salamander&obfs-password=uw9b2qq5rx&insecure=0&sni=fiproxy1.lockdwn.com",
@@ -355,9 +362,9 @@
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:46.229.243.77",
-    "cidr_black:46.229.243.77",
-    "cidr_black:46.229.243.77"
+    "cidr_black:46.229.243.140",
+    "cidr_black:46.229.243.140",
+    "cidr_black:46.229.243.140"
    ]
   },
   {
@@ -507,7 +514,7 @@
    ]
   }
  ],
- "mobile_count": 27,
+ "mobile_count": 28,
  "black_count": 28,
- "unknown_count": 9289
+ "unknown_count": 9278
 }
