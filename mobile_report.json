@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-23T05:16:24Z",
+ "generated": "2026-09-23T05:49:38Z",
  "white_24_count": 10,
  "black_24_count": 76,
  "sni_count": 37,
- "pool_count": 9307,
+ "pool_count": 9274,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -97,27 +97,6 @@
    "details": [
     "cidr_black:31.76.80.69"
    ]
-  },
-  {
-   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443/",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
-   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
-   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
   },
   {
    "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org&insecure=0",
@@ -385,6 +364,17 @@
    ]
   },
   {
+   "uri": "vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@cdn7-39.vk-cdnvideo.com:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "cidr_black",
+   "details": [
+    "cidr_black:46.229.243.147",
+    "cidr_black:46.229.243.147",
+    "cidr_black:46.229.243.147"
+   ]
+  },
+  {
    "uri": "vless://94006a20-6cd6-4751-a14d-c5a0bacb68bb@64.188.79.106:443?security=reality&encryption=none&pbk=dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yandex.ru&sid=992e5a9a",
    "source": "All_Configs_Sub.txt",
    "mobile": true,
@@ -400,146 +390,6 @@
    "via": "sni_white",
    "details": [
     "sni_white:bl3fk52.sysopnova.art"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=dailycanvas.sysopnova.art&type=xhttp&fp=android",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=dailycanvas.sysopnova.art&type=xhttp&fp=edge",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=dailycanvas.sysopnova.art&type=xhttp&fp=firefox",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=dailycanvas.sysopnova.art&type=xhttp&fp=ios",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=dailycanvas.sysopnova.art&type=xhttp&fp=qq",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?security=reality&sni=bl3fk52.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&type=xhttp&path=%2Fxhttp_client_upload&mode=packet-up&encryption=none&fp=android",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167",
-    "sni_white:bl3fk52.sysopnova.art"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?security=reality&sni=bl3fk52.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&type=xhttp&path=%2Fxhttp_client_upload&mode=packet-up&encryption=none&fp=edge",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167",
-    "sni_white:bl3fk52.sysopnova.art"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?security=reality&sni=bl3fk52.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&type=xhttp&path=%2Fxhttp_client_upload&mode=packet-up&encryption=none&fp=firefox",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167",
-    "sni_white:bl3fk52.sysopnova.art"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?security=reality&sni=bl3fk52.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&type=xhttp&path=%2Fxhttp_client_upload&mode=packet-up&encryption=none&fp=ios",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167",
-    "sni_white:bl3fk52.sysopnova.art"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?security=reality&sni=bl3fk52.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&type=xhttp&path=%2Fxhttp_client_upload&mode=packet-up&encryption=none&fp=safari",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167",
-    "sni_white:bl3fk52.sysopnova.art"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?security=reality&sni=pl314j2.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&type=xhttp&path=%2Fxhttp_client_upload&mode=packet-up&encryption=none&fp=chrome",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?security=reality&sni=pl314j2.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&type=xhttp&path=%2Fxhttp_client_upload&mode=packet-up&encryption=none&fp=edge",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?security=reality&sni=pl314j2.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&type=xhttp&path=%2Fxhttp_client_upload&mode=packet-up&encryption=none&fp=firefox",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?security=reality&sni=pl314j2.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&type=xhttp&path=%2Fxhttp_client_upload&mode=packet-up&encryption=none&fp=qq",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?security=reality&sni=pl314j2.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&type=xhttp&path=%2Fxhttp_client_upload&mode=packet-up&encryption=none&fp=safari",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167"
    ]
   },
   {
@@ -671,7 +521,7 @@
    ]
   }
  ],
- "mobile_count": 47,
- "black_count": 27,
- "unknown_count": 9233
+ "mobile_count": 29,
+ "black_count": 28,
+ "unknown_count": 9217
 }
