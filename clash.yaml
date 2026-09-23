@@ -32,33 +32,31 @@ proxies:
     udp: true
   - Wi-Fi 03
     type: vless
-    server: 150.40.126.22
+    server: 150.40.126.18
     port: 443
     uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
     tls: true
-    servername: rs4.univesalsrv.com
+    servername: rs1.univesalsrv.com
     reality-opts:
-      public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs
-      short-id: 861ac7d66953e55f
+      public-key: upIzyaSbVz2ZK6KfGtXmPl_-sCwn8XLDyFDH5CsL9iY
+      short-id: ed0cd5cc2e26e6e7
     client-fingerprint: chrome
     network: grpc
     grpc-opts:
-      grpc-service-name: media.v1.StreamService
+      grpc-service-name: node.v2.ObjectService
     udp: true
   - Wi-Fi 04
     type: vless
-    server: 150.40.126.19
-    port: 443
-    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+    server: 130.107.73.148
+    port: 41373
+    uuid: a71c8954-66a8-4321-bedb-2336230d81ce
+    flow: xtls-rprx-vision
     tls: true
-    servername: rs2.univesalsrv.com
+    servername: google.com
     reality-opts:
-      public-key: tL16MVY08r-7YDXb1_gxuBBWInpSFp97ZLJ_ax3R2iE
-      short-id: 1469af2040b7c323
+      public-key: m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU
+      short-id: 0e
     client-fingerprint: chrome
-    network: grpc
-    grpc-opts:
-      grpc-service-name: media.v1.ObjectService
     udp: true
   - Wi-Fi 05
     type: vless
@@ -77,46 +75,20 @@ proxies:
     udp: true
   - Wi-Fi 06
     type: vless
-    server: 147.182.212.232
-    port: 56565
-    uuid: 7b188eea-b08f-42c2-bac7-d3b0e74218b8
-    flow: xtls-rprx-vision
-    tls: true
-    servername: www.paypal.com
-    reality-opts:
-      public-key: Td03Ae-cuYLq4xg7MSps58c_yRUcbbwtZLXm0ywabjY
-      short-id: 
-    client-fingerprint: chrome
-    udp: true
-  - Wi-Fi 07
-    type: vless
-    server: 150.40.126.18
+    server: 150.40.126.19
     port: 443
     uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
     tls: true
-    servername: rs1.univesalsrv.com
+    servername: rs2.univesalsrv.com
     reality-opts:
-      public-key: upIzyaSbVz2ZK6KfGtXmPl_-sCwn8XLDyFDH5CsL9iY
-      short-id: ed0cd5cc2e26e6e7
+      public-key: tL16MVY08r-7YDXb1_gxuBBWInpSFp97ZLJ_ax3R2iE
+      short-id: 1469af2040b7c323
     client-fingerprint: chrome
     network: grpc
     grpc-opts:
-      grpc-service-name: node.v2.ObjectService
+      grpc-service-name: media.v1.ObjectService
     udp: true
-  - Wi-Fi 08
-    type: vless
-    server: 159.89.87.21
-    port: 28190
-    uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
-    flow: xtls-rprx-vision
-    tls: true
-    servername: aws.amazon.com
-    reality-opts:
-      public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
-      short-id: 
-    client-fingerprint: chrome
-    udp: true
-  - Wi-Fi 09
+  - Wi-Fi 07
     type: vless
     server: 150.40.126.24
     port: 443
@@ -131,45 +103,7 @@ proxies:
     grpc-opts:
       grpc-service-name: gw.v1.ObjectService
     udp: true
-  - Wi-Fi 10
-    type: vless
-    server: 130.107.73.148
-    port: 41373
-    uuid: a71c8954-66a8-4321-bedb-2336230d81ce
-    flow: xtls-rprx-vision
-    tls: true
-    servername: google.com
-    reality-opts:
-      public-key: m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU
-      short-id: 0e
-    client-fingerprint: chrome
-    udp: true
-  - Wi-Fi 11
-    type: vless
-    server: /?--TELEGRAM--V2ray_confiig
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    flow: xtls-rprx-vision
-    tls: true
-    servername: fuck.rkn
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: 01
-    client-fingerprint: chrome
-    udp: true
-  - Wi-Fi 12
-    type: vless
-    server: 107.173.237.146
-    port: 8443
-    uuid: 1d39f715-2740-4d99-bc3b-197cc48dcee7
-    tls: true
-    servername: updates.cdn-apple.com
-    reality-opts:
-      public-key: D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc
-      short-id: df8611c07d
-    client-fingerprint: chrome
-    udp: true
-  - Wi-Fi 13
+  - Wi-Fi 08
     type: vless
     server: 15.204.97.216
     port: 23576
@@ -182,7 +116,20 @@ proxies:
       short-id: 01
     client-fingerprint: chrome
     udp: true
-  - Wi-Fi 14
+  - Wi-Fi 09
+    type: vless
+    server: /?--TELEGRAM--V2ray_confiig
+    port: 23576
+    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+    flow: xtls-rprx-vision
+    tls: true
+    servername: fuck.rkn
+    reality-opts:
+      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+      short-id: 01
+    client-fingerprint: chrome
+    udp: true
+  - Wi-Fi 10
     type: vless
     server: 15.204.97.206
     port: 23576
@@ -195,7 +142,19 @@ proxies:
       short-id: 01
     client-fingerprint: chrome
     udp: true
-  - Wi-Fi 15
+  - Wi-Fi 11
+    type: vless
+    server: 107.173.237.146
+    port: 8443
+    uuid: 1d39f715-2740-4d99-bc3b-197cc48dcee7
+    tls: true
+    servername: updates.cdn-apple.com
+    reality-opts:
+      public-key: D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc
+      short-id: df8611c07d
+    client-fingerprint: chrome
+    udp: true
+  - Wi-Fi 12
     type: vless
     server: 146.235.16.130
     port: 19825
@@ -206,6 +165,41 @@ proxies:
     reality-opts:
       public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
       short-id: 6ba85179e30d4fc2
+    client-fingerprint: chrome
+    udp: true
+  - Wi-Fi 13
+    type: vless
+    server: 150.40.126.22
+    port: 443
+    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+    tls: true
+    servername: rs4.univesalsrv.com
+    reality-opts:
+      public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs
+      short-id: 861ac7d66953e55f
+    client-fingerprint: chrome
+    network: grpc
+    grpc-opts:
+      grpc-service-name: media.v1.StreamService
+    udp: true
+  - Wi-Fi 14
+    type: vless
+    server: 137.220.221.179
+    port: 443
+    uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+    tls: false
+    udp: true
+  - Wi-Fi 15
+    type: vless
+    server: 107.181.151.241
+    port: 443
+    uuid: 317bc783-340f-453c-afb5-b6bf637c0b23
+    flow: xtls-rprx-vision
+    tls: true
+    servername: www.tradingview.com
+    reality-opts:
+      public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
+      short-id: fc994ae7eb10
     client-fingerprint: chrome
     udp: true
   - Автообход 01
@@ -236,20 +230,20 @@ proxies:
     udp: true
   - Автообход 03
     type: vless
-    server: 193.163.203.170
+    server: 144.31.50.236
     port: 443
-    uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+    uuid: 1c332eae-7e02-4acd-996d-4eb3e652401c
     flow: xtls-rprx-vision
     tls: true
     servername: yandex.ru
     reality-opts:
-      public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
-      short-id: b28db60d77c50b4f
+      public-key: uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM
+      short-id: bbe46bd8f6b96839
     client-fingerprint: chrome
     udp: true
   - Автообход 04
     type: vless
-    server: 91.240.87.166
+    server: 91.240.86.12
     port: 443
     uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
     flow: xtls-rprx-vision
@@ -262,20 +256,7 @@ proxies:
     udp: true
   - Автообход 05
     type: vless
-    server: 144.31.50.236
-    port: 443
-    uuid: 1c332eae-7e02-4acd-996d-4eb3e652401c
-    flow: xtls-rprx-vision
-    tls: true
-    servername: yandex.ru
-    reality-opts:
-      public-key: uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM
-      short-id: bbe46bd8f6b96839
-    client-fingerprint: chrome
-    udp: true
-  - Автообход 06
-    type: vless
-    server: 91.240.86.186
+    server: 91.240.87.166
     port: 443
     uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
     flow: xtls-rprx-vision
@@ -286,9 +267,22 @@ proxies:
       short-id: 7bb730e3e6616d31
     client-fingerprint: chrome
     udp: true
+  - Автообход 06
+    type: vless
+    server: 193.163.203.170
+    port: 443
+    uuid: 11aabba0-5fd1-4f15-8068-74c1a466cefc
+    flow: xtls-rprx-vision
+    tls: true
+    servername: yandex.ru
+    reality-opts:
+      public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
+      short-id: b28db60d77c50b4f
+    client-fingerprint: chrome
+    udp: true
   - Автообход 07
     type: vless
-    server: 91.240.86.12
+    server: 91.240.86.186
     port: 443
     uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
     flow: xtls-rprx-vision
