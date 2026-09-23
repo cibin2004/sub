@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-23T09:50:54Z",
+ "generated": "2026-09-23T10:51:05Z",
  "white_24_count": 10,
  "black_24_count": 76,
  "sni_count": 37,
- "pool_count": 9263,
+ "pool_count": 9262,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -93,6 +93,13 @@
    ]
   },
   {
+   "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?sni=hy.quattro-tech.ru",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "in_community_white_list",
+   "details": []
+  },
+  {
    "uri": "hysteria2://6aab8efdf13945829ae3699c342be406@31.76.80.69:443?security=tls&obfs=salamander&obfs-password=uw9b2qq5rx&insecure=0&sni=fiproxy1.lockdwn.com",
    "source": "All_Configs_Sub.txt",
    "mobile": false,
@@ -110,6 +117,20 @@
   },
   {
    "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "in_community_white_list",
+   "details": []
+  },
+  {
+   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "in_community_white_list",
+   "details": []
+  },
+  {
+   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org&insecure=0",
    "source": "igareck_all",
    "mobile": true,
    "via": "in_community_white_list",
@@ -388,9 +409,9 @@
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:162.249.126.42",
-    "cidr_black:162.249.126.42",
-    "cidr_black:162.249.126.42"
+    "cidr_black:162.249.126.37",
+    "cidr_black:162.249.126.37",
+    "cidr_black:162.249.126.37"
    ]
   },
   {
@@ -540,7 +561,7 @@
    ]
   }
  ],
- "mobile_count": 31,
+ "mobile_count": 34,
  "black_count": 28,
- "unknown_count": 9204
+ "unknown_count": 9200
 }
