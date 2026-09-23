@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-23T06:50:29Z",
+ "generated": "2026-09-23T07:50:32Z",
  "white_24_count": 10,
  "black_24_count": 76,
  "sni_count": 37,
- "pool_count": 9289,
+ "pool_count": 9268,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -50,6 +50,16 @@
    "mobile": true,
    "via": "in_community_white_list",
    "details": []
+  },
+  {
+   "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=1&sni=off",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:91.240.86.70",
+    "sni_white:off"
+   ]
   },
   {
    "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=91.240.86.70&insecure=1&alpn=h3",
@@ -99,7 +109,7 @@
    ]
   },
   {
-   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443/",
+   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3",
    "source": "igareck_all",
    "mobile": true,
    "via": "in_community_white_list",
@@ -210,6 +220,15 @@
   },
   {
    "uri": "vless://47d9b534-8a0a-4bd2-90f1-1d6ade14427e@150.241.101.80:8443/?type=raw&encryption=none&flow=xtls-rprx-vision&sni=yandex.net&fp=chrome&security=reality&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2&packetEncoding=xudp",
+   "source": "All_Configs_Sub.txt",
+   "mobile": true,
+   "via": "sni_white",
+   "details": [
+    "sni_white:yandex.net"
+   ]
+  },
+  {
+   "uri": "vless://47d9b534-8a0a-4bd2-90f1-1d6ade14427e@150.241.101.80:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.net&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2&type=tcp&headerType=none",
    "source": "All_Configs_Sub.txt",
    "mobile": true,
    "via": "sni_white",
@@ -369,9 +388,9 @@
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:162.249.126.46",
-    "cidr_black:162.249.126.46",
-    "cidr_black:162.249.126.46"
+    "cidr_black:46.229.243.94",
+    "cidr_black:46.229.243.94",
+    "cidr_black:46.229.243.94"
    ]
   },
   {
@@ -521,7 +540,7 @@
    ]
   }
  ],
- "mobile_count": 29,
+ "mobile_count": 31,
  "black_count": 28,
- "unknown_count": 9232
+ "unknown_count": 9209
 }
