@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T07:01:16Z",
+ "generated": "2026-09-24T08:01:29Z",
  "white_24_count": 10,
  "black_24_count": 75,
  "sni_count": 37,
@@ -122,7 +122,7 @@
    "details": []
   },
   {
-   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3",
+   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0",
    "source": "igareck_all",
    "mobile": true,
    "via": "in_community_white_list",
@@ -470,9 +470,9 @@
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:162.249.126.199",
-    "cidr_black:162.249.126.199",
-    "cidr_black:162.249.126.199"
+    "cidr_black:162.249.126.41",
+    "cidr_black:162.249.126.41",
+    "cidr_black:162.249.126.41"
    ]
   },
   {
@@ -629,54 +629,9 @@
    "details": [
     "cidr_black:5.157.10.250"
    ]
-  },
-  {
-   "uri": "vless://ffac6b3c-d79c-4543-ab4a-3bd3019edbc1@94.198.54.132:8443?encryption=none&security=reality&sni=reels.frkn.org&pbk=ZXvgBIvhN87thoELQot4o6b6Fe9n_wATxfobHRAwgys&sid=0498897564df&type=grpc&serviceName=grpc&fp=android",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:94.198.54.132"
-   ]
-  },
-  {
-   "uri": "vless://ffac6b3c-d79c-4543-ab4a-3bd3019edbc1@94.198.54.132:8443?encryption=none&security=reality&sni=reels.frkn.org&pbk=ZXvgBIvhN87thoELQot4o6b6Fe9n_wATxfobHRAwgys&sid=0498897564df&type=grpc&serviceName=grpc&fp=edge",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:94.198.54.132"
-   ]
-  },
-  {
-   "uri": "vless://ffac6b3c-d79c-4543-ab4a-3bd3019edbc1@94.198.54.132:8443?encryption=none&security=reality&sni=reels.frkn.org&pbk=ZXvgBIvhN87thoELQot4o6b6Fe9n_wATxfobHRAwgys&sid=0498897564df&type=grpc&serviceName=grpc&fp=firefox",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:94.198.54.132"
-   ]
-  },
-  {
-   "uri": "vless://ffac6b3c-d79c-4543-ab4a-3bd3019edbc1@94.198.54.132:8443?encryption=none&security=reality&sni=reels.frkn.org&pbk=ZXvgBIvhN87thoELQot4o6b6Fe9n_wATxfobHRAwgys&sid=0498897564df&type=grpc&serviceName=grpc&fp=ios",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:94.198.54.132"
-   ]
-  },
-  {
-   "uri": "vless://ffac6b3c-d79c-4543-ab4a-3bd3019edbc1@94.198.54.132:8443?encryption=none&security=reality&sni=reels.frkn.org&pbk=ZXvgBIvhN87thoELQot4o6b6Fe9n_wATxfobHRAwgys&sid=0498897564df&type=grpc&serviceName=grpc&fp=qq",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:94.198.54.132"
-   ]
   }
  ],
- "mobile_count": 36,
+ "mobile_count": 31,
  "black_count": 37,
- "unknown_count": 9212
+ "unknown_count": 9217
 }
