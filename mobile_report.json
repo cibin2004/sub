@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-24T02:59:46Z",
+ "generated": "2026-09-24T04:00:06Z",
  "white_24_count": 10,
  "black_24_count": 75,
  "sni_count": 37,
- "pool_count": 9349,
+ "pool_count": 9317,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -99,13 +99,6 @@
    ]
   },
   {
-   "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:24443?sni=hy.quattro-tech.ru",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
    "uri": "hysteria2://6aab8efdf13945829ae3699c342be406@31.76.80.69:443?security=tls&obfs=salamander&obfs-password=uw9b2qq5rx&insecure=0&sni=fiproxy1.lockdwn.com",
    "source": "All_Configs_Sub.txt",
    "mobile": false,
@@ -132,13 +125,6 @@
     "cidr_white:94.198.54.132",
     "sni_white:msk.frkn.org"
    ]
-  },
-  {
-   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
   },
   {
    "uri": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpROURSdjY1MDdaUGo0VzZMNm5vX0pkSzE=@109.94.164.61:8282",
@@ -174,51 +160,6 @@
    "via": "cidr_black",
    "details": [
     "cidr_black:172.238.232.239"
-   ]
-  },
-  {
-   "uri": "vless://17ae4af4-a672-4780-b6f7-311fef62abd1@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=android",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:95.129.236.239"
-   ]
-  },
-  {
-   "uri": "vless://17ae4af4-a672-4780-b6f7-311fef62abd1@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=chrome",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:95.129.236.239"
-   ]
-  },
-  {
-   "uri": "vless://17ae4af4-a672-4780-b6f7-311fef62abd1@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=edge",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:95.129.236.239"
-   ]
-  },
-  {
-   "uri": "vless://17ae4af4-a672-4780-b6f7-311fef62abd1@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=firefox",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:95.129.236.239"
-   ]
-  },
-  {
-   "uri": "vless://17ae4af4-a672-4780-b6f7-311fef62abd1@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=safari",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:95.129.236.239"
    ]
   },
   {
@@ -329,6 +270,96 @@
    "via": "sni_white",
    "details": [
     "sni_white:yandex.ru"
+   ]
+  },
+  {
+   "uri": "vless://6a9c7e23-73cc-4cbd-9c4a-9aa0f9619eaa@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=chrome",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
+   ]
+  },
+  {
+   "uri": "vless://6a9c7e23-73cc-4cbd-9c4a-9aa0f9619eaa@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=edge",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
+   ]
+  },
+  {
+   "uri": "vless://6a9c7e23-73cc-4cbd-9c4a-9aa0f9619eaa@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=firefox",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
+   ]
+  },
+  {
+   "uri": "vless://6a9c7e23-73cc-4cbd-9c4a-9aa0f9619eaa@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=ios",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
+   ]
+  },
+  {
+   "uri": "vless://6a9c7e23-73cc-4cbd-9c4a-9aa0f9619eaa@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=safari",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
+   ]
+  },
+  {
+   "uri": "vless://6a9c7e23-73cc-4cbd-9c4a-9aa0f9619eaa@95.129.236.239:443?encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=android",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
+   ]
+  },
+  {
+   "uri": "vless://6a9c7e23-73cc-4cbd-9c4a-9aa0f9619eaa@95.129.236.239:443?encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=chrome",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
+   ]
+  },
+  {
+   "uri": "vless://6a9c7e23-73cc-4cbd-9c4a-9aa0f9619eaa@95.129.236.239:443?encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=edge",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
+   ]
+  },
+  {
+   "uri": "vless://6a9c7e23-73cc-4cbd-9c4a-9aa0f9619eaa@95.129.236.239:443?encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=firefox",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
+   ]
+  },
+  {
+   "uri": "vless://6a9c7e23-73cc-4cbd-9c4a-9aa0f9619eaa@95.129.236.239:443?encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=ios",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
    ]
   },
   {
@@ -463,9 +494,9 @@
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:162.249.126.83",
-    "cidr_black:162.249.126.83",
-    "cidr_black:162.249.126.83"
+    "cidr_black:46.229.243.81",
+    "cidr_black:46.229.243.81",
+    "cidr_black:46.229.243.81"
    ]
   },
   {
@@ -624,7 +655,7 @@
    ]
   }
  ],
- "mobile_count": 38,
+ "mobile_count": 41,
  "black_count": 30,
- "unknown_count": 9281
+ "unknown_count": 9246
 }
