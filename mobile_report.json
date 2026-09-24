@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-24T08:01:29Z",
+ "generated": "2026-09-24T09:01:39Z",
  "white_24_count": 10,
  "black_24_count": 75,
  "sni_count": 37,
- "pool_count": 9285,
+ "pool_count": 9291,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -122,7 +122,19 @@
    "details": []
   },
   {
-   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0",
+   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=0&sni=msk.frkn.org",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:94.198.54.132",
+    "cidr_white:94.198.54.132",
+    "cidr_white:94.198.54.132",
+    "sni_white:msk.frkn.org"
+   ]
+  },
+  {
+   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3",
    "source": "igareck_all",
    "mobile": true,
    "via": "in_community_white_list",
@@ -470,9 +482,9 @@
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:162.249.126.41",
-    "cidr_black:162.249.126.41",
-    "cidr_black:162.249.126.41"
+    "cidr_black:162.249.126.196",
+    "cidr_black:162.249.126.196",
+    "cidr_black:162.249.126.196"
    ]
   },
   {
@@ -631,7 +643,7 @@
    ]
   }
  ],
- "mobile_count": 31,
+ "mobile_count": 32,
  "black_count": 37,
- "unknown_count": 9217
+ "unknown_count": 9222
 }
