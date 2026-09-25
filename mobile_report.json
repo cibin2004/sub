@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-25T17:13:14Z",
+ "generated": "2026-09-25T18:13:34Z",
  "white_24_count": 10,
  "black_24_count": 75,
  "sni_count": 37,
- "pool_count": 9446,
+ "pool_count": 9413,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -149,6 +149,15 @@
    "details": []
   },
   {
+   "uri": "trojan://19a98e32a1149952a988e1e915306e07@87.58.220.77:8443?fp=&pbk=Xg9GWp35B9WMmB1FRancEXyJ6TD-HiCvw0s2gC-YtTU&security=reality&sid=dc05de&sni=yandex.ru",
+   "source": "All_Configs_Sub.txt",
+   "mobile": true,
+   "via": "sni_white",
+   "details": [
+    "sni_white:yandex.ru"
+   ]
+  },
+  {
    "uri": "vless://11aabba0-5fd1-4f15-8068-74c1a466cefc@193.163.203.170:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.ru&fp=chrome&pbk=GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o&sid=b28db60d77c50b4f&type=tcp&headerType=none",
    "source": "All_Configs_Sub.txt",
    "mobile": true,
@@ -256,15 +265,6 @@
    "via": "sni_white",
    "details": [
     "sni_white:yandex.net"
-   ]
-  },
-  {
-   "uri": "vless://4bdeee92-97e8-414d-bef6-ec1d5e2ab73b@164.37.100.194:443?security=reality&encryption=none&pbk=s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=14ang88.snusoed.baby&sid=2e124af254a65e7c",
-   "source": "All_Configs_Sub.txt",
-   "mobile": false,
-   "via": "cidr_black",
-   "details": [
-    "cidr_black:164.37.100.194"
    ]
   },
   {
@@ -411,6 +411,15 @@
    ]
   },
   {
+   "uri": "vless://828d1c2b-8345-4e59-bbd0-c2991514c1a5@85.198.97.155:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=yandex.ru&fp=chrome&pbk=SaImbTlBTEGJOdghqZ6dNg3TY3WfnlvP8PgewUeokgE&allowInsecure=1",
+   "source": "All_Configs_Sub.txt",
+   "mobile": true,
+   "via": "sni_white",
+   "details": [
+    "sni_white:yandex.ru"
+   ]
+  },
+  {
    "uri": "vless://84a794a5-2420-4ca7-8e08-8d21571f36f3@88.216.63.21:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=hhhorp.plus-hit.ru&fp=chrome&pbk=N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA&sid=7c8e3d4a9b1f26d3&spx=/&allowinsecure=0&type=tcp&headerType=none",
    "source": "All_Configs_Sub.txt",
    "mobile": false,
@@ -487,6 +496,17 @@
    "via": "cidr_white",
    "details": [
     "cidr_white:45.131.212.28"
+   ]
+  },
+  {
+   "uri": "vless://9031fb65-f53c-42d5-abb3-c7b95fd34df6@fi.viralforge.ru:443?security=reality&encryption=none&pbk=HLKQ0JvyaZ16JNdl0pbEPkiVRYJDiZNzGz9prDMiw2s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fi.viralforge.ru&sid=a1b2c3d4b5",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "cidr_black",
+   "details": [
+    "cidr_black:144.31.150.211",
+    "cidr_black:144.31.150.211",
+    "cidr_black:144.31.150.211"
    ]
   },
   {
@@ -641,9 +661,18 @@
    "details": [
     "cidr_black:5.181.201.43"
    ]
+  },
+  {
+   "uri": "vless://f5a53085-1982-4340-be29-076d53d2171f@80.209.242.5:8443?encryption=none&type=grpc&security=reality&sni=yandex.ru&fp=chrome&pbk=u-c0Oer6YYrL4L1tpBKgBOp6XhhLYXYNjkQbRu3UBWA&sid=2607&allowInsecure=1",
+   "source": "All_Configs_Sub.txt",
+   "mobile": true,
+   "via": "sni_white",
+   "details": [
+    "sni_white:yandex.ru"
+   ]
   }
  ],
- "mobile_count": 35,
+ "mobile_count": 38,
  "black_count": 35,
- "unknown_count": 9376
+ "unknown_count": 9340
 }
