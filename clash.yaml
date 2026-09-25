@@ -7,18 +7,6 @@ ipv6: false
 proxies:
   - Wi-Fi 01
     type: vless
-    server: 152.228.162.19
-    port: 80
-    uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-    tls: false
-    network: ws
-    ws-opts:
-      path: /vless/
-      headers:
-        Host: 152.228.162.19
-    udp: true
-  - Wi-Fi 02
-    type: vless
     server: 143.246.193.215
     port: 443
     uuid: 77da6e30-ad4e-11f1-94d5-525400d1d4f7
@@ -30,67 +18,7 @@ proxies:
       short-id: 
     client-fingerprint: chrome
     udp: true
-  - Wi-Fi 03
-    type: vless
-    server: 150.40.126.22
-    port: 443
-    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-    tls: true
-    servername: rs4.univesalsrv.com
-    reality-opts:
-      public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs
-      short-id: 861ac7d66953e55f
-    client-fingerprint: chrome
-    network: grpc
-    grpc-opts:
-      grpc-service-name: media.v1.StreamService
-    udp: true
-  - Wi-Fi 04
-    type: vless
-    server: 150.40.126.24
-    port: 443
-    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-    tls: true
-    servername: rs5.univesalsrv.com
-    reality-opts:
-      public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
-      short-id: 4872856d5489c37d
-    client-fingerprint: chrome
-    network: grpc
-    grpc-opts:
-      grpc-service-name: gw.v1.ObjectService
-    udp: true
-  - Wi-Fi 05
-    type: vless
-    server: 150.40.126.18
-    port: 443
-    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-    tls: true
-    servername: rs1.univesalsrv.com
-    reality-opts:
-      public-key: upIzyaSbVz2ZK6KfGtXmPl_-sCwn8XLDyFDH5CsL9iY
-      short-id: ed0cd5cc2e26e6e7
-    client-fingerprint: chrome
-    network: grpc
-    grpc-opts:
-      grpc-service-name: node.v2.ObjectService
-    udp: true
-  - Wi-Fi 06
-    type: vless
-    server: 150.40.126.19
-    port: 443
-    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-    tls: true
-    servername: rs2.univesalsrv.com
-    reality-opts:
-      public-key: tL16MVY08r-7YDXb1_gxuBBWInpSFp97ZLJ_ax3R2iE
-      short-id: 1469af2040b7c323
-    client-fingerprint: chrome
-    network: grpc
-    grpc-opts:
-      grpc-service-name: media.v1.ObjectService
-    udp: true
-  - Wi-Fi 07
+  - Wi-Fi 02
     type: vless
     server: 150.40.126.21
     port: 443
@@ -105,20 +33,79 @@ proxies:
     grpc-opts:
       grpc-service-name: edge.v2.FeedService
     udp: true
-  - Wi-Fi 08
+  - Wi-Fi 03
     type: vless
-    server: 147.182.212.232
-    port: 56565
-    uuid: 7b188eea-b08f-42c2-bac7-d3b0e74218b8
-    flow: xtls-rprx-vision
+    server: 150.40.126.18
+    port: 443
+    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
     tls: true
-    servername: www.paypal.com
+    servername: rs1.univesalsrv.com
     reality-opts:
-      public-key: Td03Ae-cuYLq4xg7MSps58c_yRUcbbwtZLXm0ywabjY
-      short-id: 
+      public-key: upIzyaSbVz2ZK6KfGtXmPl_-sCwn8XLDyFDH5CsL9iY
+      short-id: ed0cd5cc2e26e6e7
     client-fingerprint: chrome
+    network: grpc
+    grpc-opts:
+      grpc-service-name: node.v2.ObjectService
     udp: true
-  - Wi-Fi 09
+  - Wi-Fi 04
+    type: vless
+    server: 150.40.126.22
+    port: 443
+    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+    tls: true
+    servername: rs4.univesalsrv.com
+    reality-opts:
+      public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs
+      short-id: 861ac7d66953e55f
+    client-fingerprint: chrome
+    network: grpc
+    grpc-opts:
+      grpc-service-name: media.v1.StreamService
+    udp: true
+  - Wi-Fi 05
+    type: vless
+    server: 150.40.126.24
+    port: 443
+    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+    tls: true
+    servername: rs5.univesalsrv.com
+    reality-opts:
+      public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
+      short-id: 4872856d5489c37d
+    client-fingerprint: chrome
+    network: grpc
+    grpc-opts:
+      grpc-service-name: gw.v1.ObjectService
+    udp: true
+  - Wi-Fi 06
+    type: vless
+    server: 152.228.162.19
+    port: 80
+    uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+    tls: false
+    network: ws
+    ws-opts:
+      path: /vless/
+      headers:
+        Host: 152.228.162.19
+    udp: true
+  - Wi-Fi 07
+    type: vless
+    server: 150.40.126.19
+    port: 443
+    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+    tls: true
+    servername: rs2.univesalsrv.com
+    reality-opts:
+      public-key: tL16MVY08r-7YDXb1_gxuBBWInpSFp97ZLJ_ax3R2iE
+      short-id: 1469af2040b7c323
+    client-fingerprint: chrome
+    network: grpc
+    grpc-opts:
+      grpc-service-name: media.v1.ObjectService
+    udp: true
+  - Wi-Fi 08
     type: vless
     server: 159.89.87.21
     port: 28190
@@ -128,6 +115,19 @@ proxies:
     servername: aws.amazon.com
     reality-opts:
       public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
+      short-id: 
+    client-fingerprint: chrome
+    udp: true
+  - Wi-Fi 09
+    type: vless
+    server: 147.182.212.232
+    port: 56565
+    uuid: 7b188eea-b08f-42c2-bac7-d3b0e74218b8
+    flow: xtls-rprx-vision
+    tls: true
+    servername: www.paypal.com
+    reality-opts:
+      public-key: Td03Ae-cuYLq4xg7MSps58c_yRUcbbwtZLXm0ywabjY
       short-id: 
     client-fingerprint: chrome
     udp: true
@@ -184,23 +184,19 @@ proxies:
     udp: true
   - Wi-Fi 14
     type: vless
-    server: 146.235.16.130
-    port: 19825
-    uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
-    flow: xtls-rprx-vision
-    tls: true
-    servername: sg2-8sb.6121999.dpdns.org
-    reality-opts:
-      public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
-      short-id: 6ba85179e30d4fc2
-    client-fingerprint: chrome
-    udp: true
-  - Wi-Fi 15
-    type: vless
     server: 137.220.221.179
     port: 443
     uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
     tls: false
+    udp: true
+  - Wi-Fi 15
+    type: vless
+    server: 144.31.2.33
+    port: 443
+    uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+    flow: xtls-rprx-vision
+    tls: true
+    servername: pl3.moritech.net
     udp: true
   - Автообход 01
     type: vless
@@ -217,32 +213,6 @@ proxies:
     udp: true
   - Автообход 02
     type: vless
-    server: 91.240.87.166
-    port: 443
-    uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-    flow: xtls-rprx-vision
-    tls: true
-    servername: yandex.ru
-    reality-opts:
-      public-key: 2ZUQYIhUijdJ1vRL8iR8RxjmJvRVHYp-JoWevQ2LyR4
-      short-id: 7bb730e3e6616d31
-    client-fingerprint: chrome
-    udp: true
-  - Автообход 03
-    type: vless
-    server: 144.31.50.236
-    port: 443
-    uuid: 1c332eae-7e02-4acd-996d-4eb3e652401c
-    flow: xtls-rprx-vision
-    tls: true
-    servername: yandex.ru
-    reality-opts:
-      public-key: uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM
-      short-id: bbe46bd8f6b96839
-    client-fingerprint: chrome
-    udp: true
-  - Автообход 04
-    type: vless
     server: 150.241.101.17
     port: 8443
     uuid: 47d9b534-8a0a-4bd2-90f1-1d6ade14427e
@@ -254,7 +224,7 @@ proxies:
       short-id: 6ba85179e30d4fc2
     client-fingerprint: chrome
     udp: true
-  - Автообход 05
+  - Автообход 03
     type: vless
     server: 91.240.86.12
     port: 443
@@ -267,7 +237,20 @@ proxies:
       short-id: 7bb730e3e6616d31
     client-fingerprint: chrome
     udp: true
-  - Автообход 06
+  - Автообход 04
+    type: vless
+    server: 144.31.50.236
+    port: 443
+    uuid: 1c332eae-7e02-4acd-996d-4eb3e652401c
+    flow: xtls-rprx-vision
+    tls: true
+    servername: yandex.ru
+    reality-opts:
+      public-key: uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM
+      short-id: bbe46bd8f6b96839
+    client-fingerprint: chrome
+    udp: true
+  - Автообход 05
     type: vless
     server: 193.163.203.170
     port: 443
@@ -278,6 +261,19 @@ proxies:
     reality-opts:
       public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
       short-id: b28db60d77c50b4f
+    client-fingerprint: chrome
+    udp: true
+  - Автообход 06
+    type: vless
+    server: 91.240.87.166
+    port: 443
+    uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+    flow: xtls-rprx-vision
+    tls: true
+    servername: yandex.ru
+    reality-opts:
+      public-key: 2ZUQYIhUijdJ1vRL8iR8RxjmJvRVHYp-JoWevQ2LyR4
+      short-id: 7bb730e3e6616d31
     client-fingerprint: chrome
     udp: true
 
