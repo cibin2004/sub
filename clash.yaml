@@ -7,42 +7,41 @@ ipv6: false
 proxies:
   - Wi-Fi 01
     type: vless
-    server: noisy-term-e657.airdrop2014aa5168.workers.dev
+    server: 144.31.125.60
     port: 443
-    uuid: 5d8eb33a-2166-4daf-88fe-4be5799c493b
+    uuid: 9015f0bc-2053-4ca1-9b9b-a018b97b32d2
+    flow: xtls-rprx-vision
     tls: true
-    servername: noisy-term-e657.airdrop2014aa5168.workers.dev
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: noisy-term-e657.airdrop2014aa5168.workers.dev
+    servername: www.intel.com
+    reality-opts:
+      public-key: SVgtyuD9khylgHuB0treGekxVSHPOS-wPZTNHUf6zj8
+      short-id: 85c86a9863
+    client-fingerprint: chrome
     udp: true
   - Wi-Fi 02
     type: vless
-    server: noisy-term-e657.airdrop2014aa5168.workers.dev
-    port: 443
-    uuid: 5d8eb33a-2166-4daf-88fe-4be5799c493b
-    tls: true
-    servername: noisy-term-e657.airdrop2014aa5168.workers.dev
+    server: 152.228.162.19
+    port: 80
+    uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+    tls: false
     network: ws
     ws-opts:
-      path: /
+      path: /vless/
       headers:
-        Host: noisy-term-e657.airdrop2014aa5168.workers.dev
+        Host: 152.228.162.19
     udp: true
   - Wi-Fi 03
     type: vless
-    server: square-salad-ebde.zdfgvccfguuyggg.workers.dev
-    port: 8443
-    uuid: 31aa0950-eb19-45ff-94a2-af416deb3b90
+    server: 145.223.68.58
+    port: 443
+    uuid: edb50d20-2d3e-4c1e-8a75-a17168a89aa5
+    flow: xtls-rprx-vision
     tls: true
-    servername: SquarE-saLaD-EbDe.ZDFGVcCfgUUYgGG.wOrKeRS.DEV
-    network: ws
-    ws-opts:
-      path: /eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0?ed=8443
-      headers:
-        Host: square-salad-ebde.zdfgvccfguuyggg.workers.dev
+    servername: www.cloudflare.com
+    reality-opts:
+      public-key: qc2DcqT9zPPZr6ePZ7ukxACWrYhRNIBjDIjCK7veyQg
+      short-id: a44ff7d2e80213c2
+    client-fingerprint: chrome
     udp: true
   - Wi-Fi 04
     type: vless
@@ -59,19 +58,6 @@ proxies:
     udp: true
   - Wi-Fi 05
     type: vless
-    server: 145.223.68.58
-    port: 443
-    uuid: edb50d20-2d3e-4c1e-8a75-a17168a89aa5
-    flow: xtls-rprx-vision
-    tls: true
-    servername: www.cloudflare.com
-    reality-opts:
-      public-key: qc2DcqT9zPPZr6ePZ7ukxACWrYhRNIBjDIjCK7veyQg
-      short-id: a44ff7d2e80213c2
-    client-fingerprint: chrome
-    udp: true
-  - Wi-Fi 06
-    type: vless
     server: 150.40.126.18
     port: 443
     uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
@@ -85,7 +71,7 @@ proxies:
     grpc-opts:
       grpc-service-name: node.v2.ObjectService
     udp: true
-  - Wi-Fi 07
+  - Wi-Fi 06
     type: vless
     server: 150.40.126.21
     port: 443
@@ -99,6 +85,21 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: edge.v2.FeedService
+    udp: true
+  - Wi-Fi 07
+    type: vless
+    server: 150.40.126.24
+    port: 443
+    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+    tls: true
+    servername: rs5.univesalsrv.com
+    reality-opts:
+      public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
+      short-id: 4872856d5489c37d
+    client-fingerprint: chrome
+    network: grpc
+    grpc-opts:
+      grpc-service-name: gw.v1.ObjectService
     udp: true
   - Wi-Fi 08
     type: vless
@@ -132,32 +133,18 @@ proxies:
     udp: true
   - Wi-Fi 10
     type: vless
-    server: 150.40.126.24
-    port: 443
-    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+    server: 137.184.218.169
+    port: 36925
+    uuid: c9fd0fb1-8251-4106-b09a-f4b426736f67
+    flow: xtls-rprx-vision
     tls: true
-    servername: rs5.univesalsrv.com
+    servername: www.cloudflare.com
     reality-opts:
-      public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
-      short-id: 4872856d5489c37d
+      public-key: lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0
+      short-id: 
     client-fingerprint: chrome
-    network: grpc
-    grpc-opts:
-      grpc-service-name: gw.v1.ObjectService
     udp: true
   - Wi-Fi 11
-    type: vless
-    server: 152.228.162.19
-    port: 80
-    uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
-    tls: false
-    network: ws
-    ws-opts:
-      path: /vless/
-      headers:
-        Host: 152.228.162.19
-    udp: true
-  - Wi-Fi 12
     type: vless
     server: 147.182.212.232
     port: 56565
@@ -170,7 +157,7 @@ proxies:
       short-id: 
     client-fingerprint: chrome
     udp: true
-  - Wi-Fi 13
+  - Wi-Fi 12
     type: vless
     server: 130.107.73.148
     port: 41373
@@ -183,22 +170,22 @@ proxies:
       short-id: 0e
     client-fingerprint: chrome
     udp: true
-  - Wi-Fi 14
+  - Wi-Fi 13
     type: vless
-    server: 137.184.218.169
-    port: 36925
-    uuid: c9fd0fb1-8251-4106-b09a-f4b426736f67
+    server: 159.89.87.21
+    port: 28190
+    uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
     flow: xtls-rprx-vision
     tls: true
-    servername: www.cloudflare.com
+    servername: aws.amazon.com
     reality-opts:
-      public-key: lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0
+      public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
       short-id: 
     client-fingerprint: chrome
     udp: true
-  - Wi-Fi 15
+  - Wi-Fi 14
     type: vless
-    server: 15.204.97.216
+    server: 15.204.97.206
     port: 23576
     uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
     flow: xtls-rprx-vision
@@ -207,6 +194,18 @@ proxies:
     reality-opts:
       public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
       short-id: 01
+    client-fingerprint: chrome
+    udp: true
+  - Wi-Fi 15
+    type: vless
+    server: 107.173.237.146
+    port: 8443
+    uuid: 1d39f715-2740-4d99-bc3b-197cc48dcee7
+    tls: true
+    servername: updates.cdn-apple.com
+    reality-opts:
+      public-key: D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc
+      short-id: df8611c07d
     client-fingerprint: chrome
     udp: true
   - Автообход 01
@@ -237,20 +236,20 @@ proxies:
     udp: true
   - Автообход 03
     type: vless
-    server: 91.240.86.12
-    port: 443
-    uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+    server: 150.241.101.17
+    port: 8443
+    uuid: 47d9b534-8a0a-4bd2-90f1-1d6ade14427e
     flow: xtls-rprx-vision
     tls: true
-    servername: yandex.ru
+    servername: yandex.net
     reality-opts:
-      public-key: 2ZUQYIhUijdJ1vRL8iR8RxjmJvRVHYp-JoWevQ2LyR4
-      short-id: 7bb730e3e6616d31
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: 6ba85179e30d4fc2
     client-fingerprint: chrome
     udp: true
   - Автообход 04
     type: vless
-    server: 150.241.101.17
+    server: 150.241.101.80
     port: 8443
     uuid: 47d9b534-8a0a-4bd2-90f1-1d6ade14427e
     flow: xtls-rprx-vision
@@ -289,7 +288,7 @@ proxies:
     udp: true
   - Автообход 07
     type: vless
-    server: 91.240.87.166
+    server: 91.240.86.12
     port: 443
     uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
     flow: xtls-rprx-vision
@@ -302,15 +301,15 @@ proxies:
     udp: true
   - Автообход 08
     type: vless
-    server: 150.241.101.80
-    port: 8443
-    uuid: 47d9b534-8a0a-4bd2-90f1-1d6ade14427e
+    server: 91.240.87.166
+    port: 443
+    uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
     flow: xtls-rprx-vision
     tls: true
-    servername: yandex.net
+    servername: yandex.ru
     reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
+      public-key: 2ZUQYIhUijdJ1vRL8iR8RxjmJvRVHYp-JoWevQ2LyR4
+      short-id: 7bb730e3e6616d31
     client-fingerprint: chrome
     udp: true
 
