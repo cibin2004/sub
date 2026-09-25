@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-25T03:08:34Z",
+ "generated": "2026-09-25T04:08:41Z",
  "white_24_count": 10,
  "black_24_count": 75,
  "sni_count": 37,
- "pool_count": 9517,
+ "pool_count": 9501,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -32,6 +32,16 @@
    "via": "sni_white",
    "details": [
     "sni_white:vk.com"
+   ]
+  },
+  {
+   "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=0&sni=hy.quattro-tech.ru",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:91.240.86.70",
+    "sni_white:hy.quattro-tech.ru"
    ]
   },
   {
@@ -123,6 +133,20 @@
    "details": [
     "cidr_black:31.76.80.69"
    ]
+  },
+  {
+   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443/",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "in_community_white_list",
+   "details": []
+  },
+  {
+   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "in_community_white_list",
+   "details": []
   },
   {
    "uri": "vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@assets-nl.pleiades.codes:443?encryption=none&fp=chrome&security=tls&serviceName=cdn.v1.AssetService&sni=assets-nl.pleiades.codes&type=grpc",
@@ -497,6 +521,17 @@
    ]
   },
   {
+   "uri": "vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@cdn7-39.vk-cdnvideo.com:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "cidr_black",
+   "details": [
+    "cidr_black:46.229.243.142",
+    "cidr_black:46.229.243.142",
+    "cidr_black:46.229.243.142"
+   ]
+  },
+  {
    "uri": "vless://94006a20-6cd6-4751-a14d-c5a0bacb68bb@64.188.79.106:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg&security=reality&sid=992e5a9a&sni=yandex.ru&type=tcp",
    "source": "All_Configs_Sub.txt",
    "mobile": true,
@@ -548,6 +583,51 @@
    "via": "cidr_black",
    "details": [
     "cidr_black:31.77.13.19"
+   ]
+  },
+  {
+   "uri": "vless://b65a30ea-d187-4ea8-8d7e-2eccdb9f9044@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=android",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
+   ]
+  },
+  {
+   "uri": "vless://b65a30ea-d187-4ea8-8d7e-2eccdb9f9044@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=chrome",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
+   ]
+  },
+  {
+   "uri": "vless://b65a30ea-d187-4ea8-8d7e-2eccdb9f9044@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=edge",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
+   ]
+  },
+  {
+   "uri": "vless://b65a30ea-d187-4ea8-8d7e-2eccdb9f9044@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=firefox",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
+   ]
+  },
+  {
+   "uri": "vless://b65a30ea-d187-4ea8-8d7e-2eccdb9f9044@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=ios",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
    ]
   },
   {
@@ -677,7 +757,7 @@
    ]
   }
  ],
- "mobile_count": 36,
- "black_count": 37,
- "unknown_count": 9444
+ "mobile_count": 44,
+ "black_count": 38,
+ "unknown_count": 9419
 }
