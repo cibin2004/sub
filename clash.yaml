@@ -54,18 +54,18 @@ proxies:
     udp: true
   - Wi-Fi 05
     type: vless
-    server: 150.40.126.22
+    server: 150.40.126.24
     port: 443
     uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
     tls: true
-    servername: rs4.univesalsrv.com
+    servername: rs5.univesalsrv.com
     reality-opts:
-      public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs
-      short-id: 861ac7d66953e55f
+      public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
+      short-id: 4872856d5489c37d
     client-fingerprint: chrome
     network: grpc
     grpc-opts:
-      grpc-service-name: media.v1.StreamService
+      grpc-service-name: gw.v1.ObjectService
     udp: true
   - Wi-Fi 06
     type: vless
@@ -84,6 +84,21 @@ proxies:
     udp: true
   - Wi-Fi 07
     type: vless
+    server: 150.40.126.22
+    port: 443
+    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
+    tls: true
+    servername: rs4.univesalsrv.com
+    reality-opts:
+      public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs
+      short-id: 861ac7d66953e55f
+    client-fingerprint: chrome
+    network: grpc
+    grpc-opts:
+      grpc-service-name: media.v1.StreamService
+    udp: true
+  - Wi-Fi 08
+    type: vless
     server: 150.40.126.21
     port: 443
     uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
@@ -97,7 +112,7 @@ proxies:
     grpc-opts:
       grpc-service-name: edge.v2.FeedService
     udp: true
-  - Wi-Fi 08
+  - Wi-Fi 09
     type: vless
     server: 150.40.126.19
     port: 443
@@ -111,21 +126,6 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: media.v1.ObjectService
-    udp: true
-  - Wi-Fi 09
-    type: vless
-    server: 150.40.126.24
-    port: 443
-    uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be
-    tls: true
-    servername: rs5.univesalsrv.com
-    reality-opts:
-      public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE
-      short-id: 4872856d5489c37d
-    client-fingerprint: chrome
-    network: grpc
-    grpc-opts:
-      grpc-service-name: gw.v1.ObjectService
     udp: true
   - Wi-Fi 10
     type: vless
@@ -155,6 +155,19 @@ proxies:
     udp: true
   - Wi-Fi 12
     type: vless
+    server: 147.182.212.232
+    port: 56565
+    uuid: 7b188eea-b08f-42c2-bac7-d3b0e74218b8
+    flow: xtls-rprx-vision
+    tls: true
+    servername: www.paypal.com
+    reality-opts:
+      public-key: Td03Ae-cuYLq4xg7MSps58c_yRUcbbwtZLXm0ywabjY
+      short-id: 
+    client-fingerprint: chrome
+    udp: true
+  - Wi-Fi 13
+    type: vless
     server: 130.107.73.148
     port: 41373
     uuid: a71c8954-66a8-4321-bedb-2336230d81ce
@@ -166,7 +179,7 @@ proxies:
       short-id: 0e
     client-fingerprint: chrome
     udp: true
-  - Wi-Fi 13
+  - Wi-Fi 14
     type: vless
     server: 15.204.97.206
     port: 23576
@@ -179,35 +192,21 @@ proxies:
       short-id: 01
     client-fingerprint: chrome
     udp: true
-  - Wi-Fi 14
-    type: vless
-    server: /?--TELEGRAM--V2ray_confiig
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    flow: xtls-rprx-vision
-    tls: true
-    servername: fuck.rkn
-    reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: 01
-    client-fingerprint: chrome
-    udp: true
   - Wi-Fi 15
     type: vless
-    server: 15.204.97.216
-    port: 23576
-    uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-    flow: xtls-rprx-vision
+    server: 107.173.237.146
+    port: 8443
+    uuid: 1d39f715-2740-4d99-bc3b-197cc48dcee7
     tls: true
-    servername: fuck.rkn
+    servername: updates.cdn-apple.com
     reality-opts:
-      public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-      short-id: 01
+      public-key: D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc
+      short-id: df8611c07d
     client-fingerprint: chrome
     udp: true
   - Автообход 01
     type: vless
-    server: 150.241.101.80
+    server: 150.241.101.17
     port: 8443
     uuid: 47d9b534-8a0a-4bd2-90f1-1d6ade14427e
     flow: xtls-rprx-vision
@@ -220,7 +219,7 @@ proxies:
     udp: true
   - Автообход 02
     type: vless
-    server: 150.241.101.17
+    server: 150.241.101.80
     port: 8443
     uuid: 47d9b534-8a0a-4bd2-90f1-1d6ade14427e
     flow: xtls-rprx-vision
