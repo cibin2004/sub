@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-25T21:15:15Z",
+ "generated": "2026-09-25T22:15:34Z",
  "white_24_count": 10,
  "black_24_count": 75,
  "sni_count": 37,
- "pool_count": 9436,
+ "pool_count": 9482,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -79,6 +79,13 @@
    ]
   },
   {
+   "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=itsallproxy.quattro-tech.ru",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "in_community_white_list",
+   "details": []
+  },
+  {
    "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?sni=itsallproxy.quattro-tech.ru&alpn=h3",
    "source": "igareck_all",
    "mobile": true,
@@ -135,6 +142,13 @@
    "details": []
   },
   {
+   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "in_community_white_list",
+   "details": []
+  },
+  {
    "uri": "trojan://19a98e32a1149952a988e1e915306e07@87.58.220.77:8443?fp=&pbk=Xg9GWp35B9WMmB1FRancEXyJ6TD-HiCvw0s2gC-YtTU&security=reality&sid=dc05de&sni=yandex.ru",
    "source": "All_Configs_Sub.txt",
    "mobile": true,
@@ -172,6 +186,15 @@
   },
   {
    "uri": "vless://1c332eae-7e02-4acd-996d-4eb3e652401c@144.31.50.236:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=yandex.ru&fp=chrome&security=reality&pbk=uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM&sid=bbe46bd8f6b96839",
+   "source": "All_Configs_Sub.txt",
+   "mobile": true,
+   "via": "sni_white",
+   "details": [
+    "sni_white:yandex.ru"
+   ]
+  },
+  {
+   "uri": "vless://1c332eae-7e02-4acd-996d-4eb3e652401c@144.31.50.236:443?security=reality&encryption=none&pbk=uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yandex.ru&sid=bbe46bd8f6b96839",
    "source": "All_Configs_Sub.txt",
    "mobile": true,
    "via": "sni_white",
@@ -236,6 +259,15 @@
    ]
   },
   {
+   "uri": "vless://47d9b534-8a0a-4bd2-90f1-1d6ade14427e@150.241.101.80:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yandex.net&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2&type=tcp&headerType=none",
+   "source": "All_Configs_Sub.txt",
+   "mobile": true,
+   "via": "sni_white",
+   "details": [
+    "sni_white:yandex.net"
+   ]
+  },
+  {
    "uri": "vless://47d9b534-8a0a-4bd2-90f1-1d6ade14427e@150.241.101.80:8443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yandex.net&sid=6ba85179e30d4fc2",
    "source": "All_Configs_Sub.txt",
    "mobile": true,
@@ -251,15 +283,6 @@
    "via": "sni_white",
    "details": [
     "sni_white:yandex.net"
-   ]
-  },
-  {
-   "uri": "vless://4bdeee92-97e8-414d-bef6-ec1d5e2ab73b@164.37.100.195:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk&security=reality&sid=2e124af254a65e7c&sni=tomaz1337shellbuy.vvzzkontaktezzvv.garden&type=tcp",
-   "source": "All_Configs_Sub.txt",
-   "mobile": false,
-   "via": "cidr_black",
-   "details": [
-    "cidr_black:164.37.100.195"
    ]
   },
   {
@@ -307,6 +330,28 @@
     "cidr_black:5.157.10.148",
     "cidr_black:5.157.10.148",
     "cidr_black:5.157.10.148"
+   ]
+  },
+  {
+   "uri": "vless://4bdeee92-97e8-414d-bef6-ec1d5e2ab73b@tomaz1337shellbuy.vvzzkontaktezzvv.garden:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=&pbk=s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk&spx=/AhmadV2ray&sid=2e124af254a65e7c",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "cidr_black",
+   "details": [
+    "cidr_black:164.37.100.195",
+    "cidr_black:164.37.100.195",
+    "cidr_black:164.37.100.195"
+   ]
+  },
+  {
+   "uri": "vless://4bdeee92-97e8-414d-bef6-ec1d5e2ab73b@tomaz1337shellbuy.vvzzkontaktezzvv.garden:443?security=reality&encryption=none&fm=AhmadV2ray&pbk=s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk&headerType=none&fp=chrome&spx=/AhmadV2ray&type=tcp&flow=xtls-rprx-vision&sni=tomaz1337shellbuy.vvzzkontaktezzvv.garden&sid=2e124af254a65e7c",
+   "source": "All_Configs_Sub.txt",
+   "mobile": false,
+   "via": "cidr_black",
+   "details": [
+    "cidr_black:164.37.100.195",
+    "cidr_black:164.37.100.195",
+    "cidr_black:164.37.100.195"
    ]
   },
   {
@@ -397,15 +442,6 @@
    ]
   },
   {
-   "uri": "vless://828d1c2b-8345-4e59-bbd0-c2991514c1a5@85.198.97.155:443?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=yandex.ru&fp=chrome&pbk=SaImbTlBTEGJOdghqZ6dNg3TY3WfnlvP8PgewUeokgE&allowInsecure=1",
-   "source": "All_Configs_Sub.txt",
-   "mobile": true,
-   "via": "sni_white",
-   "details": [
-    "sni_white:yandex.ru"
-   ]
-  },
-  {
    "uri": "vless://84a794a5-2420-4ca7-8e08-8d21571f36f3@88.216.63.21:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=hhhorp.plus-hit.ru&fp=chrome&pbk=N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA&sid=7c8e3d4a9b1f26d3&spx=/&allowinsecure=0&type=tcp&headerType=none",
    "source": "All_Configs_Sub.txt",
    "mobile": false,
@@ -485,25 +521,14 @@
    ]
   },
   {
-   "uri": "vless://9031fb65-f53c-42d5-abb3-c7b95fd34df6@fi.viralforge.ru:443?security=reality&encryption=none&pbk=HLKQ0JvyaZ16JNdl0pbEPkiVRYJDiZNzGz9prDMiw2s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fi.viralforge.ru&sid=a1b2c3d4b5",
-   "source": "All_Configs_Sub.txt",
-   "mobile": false,
-   "via": "cidr_black",
-   "details": [
-    "cidr_black:144.31.150.211",
-    "cidr_black:144.31.150.211",
-    "cidr_black:144.31.150.211"
-   ]
-  },
-  {
    "uri": "vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@cdn7-39.vk-cdnvideo.com:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0",
    "source": "All_Configs_Sub.txt",
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:162.249.126.39",
-    "cidr_black:162.249.126.39",
-    "cidr_black:162.249.126.39"
+    "cidr_black:46.229.243.149",
+    "cidr_black:46.229.243.149",
+    "cidr_black:46.229.243.149"
    ]
   },
   {
@@ -522,86 +547,6 @@
    "via": "sni_white",
    "details": [
     "sni_white:bl3fk52.sysopnova.art"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=android",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=edge",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=firefox",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=ios",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&extra=null&mode=packet-up&path=%2Fxhttp_client_upload&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&security=reality&sid=5eca&sni=bl3fk52.sysopnova.art&type=xhttp&fp=safari",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&security=reality&sni=pl314j2.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&type=xhttp&path=%2Fxhttp_client_upload&mode=packet-up&fp=android",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&security=reality&sni=pl314j2.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&type=xhttp&path=%2Fxhttp_client_upload&mode=packet-up&fp=chrome",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&security=reality&sni=pl314j2.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&type=xhttp&path=%2Fxhttp_client_upload&mode=packet-up&fp=firefox",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&security=reality&sni=pl314j2.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&type=xhttp&path=%2Fxhttp_client_upload&mode=packet-up&fp=qq",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167"
-   ]
-  },
-  {
-   "uri": "vless://953358cb-82ba-4296-960d-6d2ec3468f4c@45.8.228.167:443?encryption=none&security=reality&sni=pl314j2.sysopnova.art&pbk=n7Eivi9aG8PMxvaP5flLiukPADZIDVuzyOsOWDG43kQ&sid=5eca&type=xhttp&path=%2Fxhttp_client_upload&mode=packet-up&fp=safari",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "cidr_white",
-   "details": [
-    "cidr_white:45.8.228.167"
    ]
   },
   {
@@ -749,7 +694,7 @@
    ]
   }
  ],
- "mobile_count": 46,
+ "mobile_count": 39,
  "black_count": 36,
- "unknown_count": 9354
+ "unknown_count": 9407
 }
