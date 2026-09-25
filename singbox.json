@@ -100,25 +100,25 @@
   {
    "type": "vless",
    "tag": "Wi-Fi 05",
-   "server": "150.40.126.22",
+   "server": "150.40.126.24",
    "server_port": 443,
    "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
    "tls": {
     "enabled": true,
-    "server_name": "rs4.univesalsrv.com",
+    "server_name": "rs5.univesalsrv.com",
     "utls": {
      "enabled": true,
      "fingerprint": "chrome"
     },
     "reality": {
      "enabled": true,
-     "public_key": "sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs",
-     "short_id": "861ac7d66953e55f"
+     "public_key": "X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE",
+     "short_id": "4872856d5489c37d"
     }
    },
    "transport": {
     "type": "grpc",
-    "service_name": "media.v1.StreamService"
+    "service_name": "gw.v1.ObjectService"
    }
   },
   {
@@ -148,6 +148,30 @@
   {
    "type": "vless",
    "tag": "Wi-Fi 07",
+   "server": "150.40.126.22",
+   "server_port": 443,
+   "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+   "tls": {
+    "enabled": true,
+    "server_name": "rs4.univesalsrv.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs",
+     "short_id": "861ac7d66953e55f"
+    }
+   },
+   "transport": {
+    "type": "grpc",
+    "service_name": "media.v1.StreamService"
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "Wi-Fi 08",
    "server": "150.40.126.21",
    "server_port": 443,
    "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
@@ -171,7 +195,7 @@
   },
   {
    "type": "vless",
-   "tag": "Wi-Fi 08",
+   "tag": "Wi-Fi 09",
    "server": "150.40.126.19",
    "server_port": 443,
    "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
@@ -191,30 +215,6 @@
    "transport": {
     "type": "grpc",
     "service_name": "media.v1.ObjectService"
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "Wi-Fi 09",
-   "server": "150.40.126.24",
-   "server_port": 443,
-   "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-   "tls": {
-    "enabled": true,
-    "server_name": "rs5.univesalsrv.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE",
-     "short_id": "4872856d5489c37d"
-    }
-   },
-   "transport": {
-    "type": "grpc",
-    "service_name": "gw.v1.ObjectService"
    }
   },
   {
@@ -262,6 +262,27 @@
   {
    "type": "vless",
    "tag": "Wi-Fi 12",
+   "server": "147.182.212.232",
+   "server_port": 56565,
+   "uuid": "7b188eea-b08f-42c2-bac7-d3b0e74218b8",
+   "flow": "xtls-rprx-vision",
+   "tls": {
+    "enabled": true,
+    "server_name": "www.paypal.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "Td03Ae-cuYLq4xg7MSps58c_yRUcbbwtZLXm0ywabjY",
+     "short_id": ""
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "Wi-Fi 13",
    "server": "130.107.73.148",
    "server_port": 41373,
    "uuid": "a71c8954-66a8-4321-bedb-2336230d81ce",
@@ -282,7 +303,7 @@
   },
   {
    "type": "vless",
-   "tag": "Wi-Fi 13",
+   "tag": "Wi-Fi 14",
    "server": "15.204.97.206",
    "server_port": 23576,
    "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
@@ -303,50 +324,28 @@
   },
   {
    "type": "vless",
-   "tag": "Wi-Fi 14",
-   "server": "/?--TELEGRAM--V2ray_confiig",
-   "server_port": 23576,
-   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-   "flow": "xtls-rprx-vision",
-   "tls": {
-    "enabled": true,
-    "server_name": "fuck.rkn",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-     "short_id": "01"
-    }
-   }
-  },
-  {
-   "type": "vless",
    "tag": "Wi-Fi 15",
-   "server": "15.204.97.216",
-   "server_port": 23576,
-   "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-   "flow": "xtls-rprx-vision",
+   "server": "107.173.237.146",
+   "server_port": 8443,
+   "uuid": "1d39f715-2740-4d99-bc3b-197cc48dcee7",
    "tls": {
     "enabled": true,
-    "server_name": "fuck.rkn",
+    "server_name": "updates.cdn-apple.com",
     "utls": {
      "enabled": true,
      "fingerprint": "chrome"
     },
     "reality": {
      "enabled": true,
-     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-     "short_id": "01"
+     "public_key": "D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc",
+     "short_id": "df8611c07d"
     }
    }
   },
   {
    "type": "vless",
    "tag": "mobile-01",
-   "server": "150.241.101.80",
+   "server": "150.241.101.17",
    "server_port": 8443,
    "uuid": "47d9b534-8a0a-4bd2-90f1-1d6ade14427e",
    "flow": "xtls-rprx-vision",
@@ -367,7 +366,7 @@
   {
    "type": "vless",
    "tag": "mobile-02",
-   "server": "150.241.101.17",
+   "server": "150.241.101.80",
    "server_port": 8443,
    "uuid": "47d9b534-8a0a-4bd2-90f1-1d6ade14427e",
    "flow": "xtls-rprx-vision",
