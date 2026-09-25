@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-25T01:07:52Z",
+ "generated": "2026-09-25T02:08:13Z",
  "white_24_count": 10,
  "black_24_count": 75,
  "sni_count": 37,
- "pool_count": 9632,
+ "pool_count": 9612,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -135,11 +135,57 @@
    ]
   },
   {
+   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443/",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "in_community_white_list",
+   "details": []
+  },
+  {
+   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=0&sni=msk.frkn.org",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:94.198.54.132",
+    "cidr_white:94.198.54.132",
+    "cidr_white:94.198.54.132",
+    "sni_white:msk.frkn.org"
+   ]
+  },
+  {
    "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3",
    "source": "igareck_all",
    "mobile": true,
    "via": "in_community_white_list",
    "details": []
+  },
+  {
+   "uri": "vless://0c3de615-255a-4856-9675-f3053c95f6d1@95.129.236.239:443?type=ws&security=tls&encryption=none&path=%2Fstream%2F615428%2Fsocket&host=login.opendns.stream&sni=login.opendns.stream&alpn=http%2F1.1&headerType=none&fp=chrome",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
+   ]
+  },
+  {
+   "uri": "vless://0c3de615-255a-4856-9675-f3053c95f6d1@95.129.236.239:443?type=ws&security=tls&encryption=none&path=%2Fstream%2F615428%2Fsocket&host=login.opendns.stream&sni=login.opendns.stream&alpn=http%2F1.1&headerType=none&fp=firefox",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
+   ]
+  },
+  {
+   "uri": "vless://0c3de615-255a-4856-9675-f3053c95f6d1@95.129.236.239:443?type=ws&security=tls&encryption=none&path=%2Fstream%2F615428%2Fsocket&host=login.opendns.stream&sni=login.opendns.stream&alpn=http%2F1.1&headerType=none&fp=qq",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
+   ]
   },
   {
    "uri": "vless://0dca2cfe-98eb-4f9d-9a47-cf87510c558b@assets-nl.pleiades.codes:443?encryption=none&fp=chrome&security=tls&serviceName=cdn.v1.AssetService&sni=assets-nl.pleiades.codes&type=grpc",
@@ -233,6 +279,33 @@
     "cidr_black:144.31.150.145",
     "cidr_black:144.31.150.145",
     "cidr_black:144.31.150.145"
+   ]
+  },
+  {
+   "uri": "vless://3d6fbb9c-ad07-4d41-bf68-4592a9f2ce7b@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=chrome",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
+   ]
+  },
+  {
+   "uri": "vless://3d6fbb9c-ad07-4d41-bf68-4592a9f2ce7b@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=edge",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
+   ]
+  },
+  {
+   "uri": "vless://3d6fbb9c-ad07-4d41-bf68-4592a9f2ce7b@95.129.236.239:443?alpn=http%2F1.1&encryption=none&host=login.opendns.stream&path=%2Fstream%2F615428%2Fsocket&security=tls&sni=login.opendns.stream&type=ws&fp=firefox",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "cidr_white",
+   "details": [
+    "cidr_white:95.129.236.239"
    ]
   },
   {
@@ -517,9 +590,9 @@
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:162.249.126.85",
-    "cidr_black:162.249.126.85",
-    "cidr_black:162.249.126.85"
+    "cidr_black:46.229.243.93",
+    "cidr_black:46.229.243.93",
+    "cidr_black:46.229.243.93"
    ]
   },
   {
@@ -694,7 +767,7 @@
    ]
   }
  ],
- "mobile_count": 38,
+ "mobile_count": 46,
  "black_count": 37,
- "unknown_count": 9557
+ "unknown_count": 9529
 }
