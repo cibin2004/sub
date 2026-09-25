@@ -1,125 +1,125 @@
 {
- "generated": "2026-09-25T01:19:02Z",
+ "generated": "2026-09-25T02:19:22Z",
  "wifi_count": 15,
  "mobile_count": 8,
  "autobhod": "urltest group over mobile nodes",
- "candidates": 2069,
- "prob_ok": 40,
+ "candidates": 2075,
+ "prob_ok": 42,
  "nodes": [
   {
    "role": "wifi",
-   "host": "152.228.162.19",
-   "rtt_ms": 59
+   "host": "144.31.125.60",
+   "rtt_ms": 24
   },
   {
    "role": "wifi",
    "host": "141.101.114.8",
-   "rtt_ms": 63
+   "rtt_ms": 52
+  },
+  {
+   "role": "wifi",
+   "host": "145.223.68.58",
+   "rtt_ms": 100
   },
   {
    "role": "wifi",
    "host": "141.101.120.73",
-   "rtt_ms": 88
+   "rtt_ms": 101
   },
   {
    "role": "wifi",
    "host": "104.21.22.180",
-   "rtt_ms": 103
-  },
-  {
-   "role": "wifi",
-   "host": "104.26.12.54",
-   "rtt_ms": 121
-  },
-  {
-   "role": "wifi",
-   "host": "143.246.193.215",
-   "rtt_ms": 131
+   "rtt_ms": 114
   },
   {
    "role": "wifi",
    "host": "144.31.5.64",
-   "rtt_ms": 132
+   "rtt_ms": 125
   },
   {
    "role": "wifi",
-   "host": "104.21.70.21",
-   "rtt_ms": 134
+   "host": "143.246.193.215",
+   "rtt_ms": 129
   },
   {
    "role": "wifi",
-   "host": "144.31.2.33",
-   "rtt_ms": 141
+   "host": "104.26.12.54",
+   "rtt_ms": 152
+  },
+  {
+   "role": "wifi",
+   "host": "144.31.5.3",
+   "rtt_ms": 157
   },
   {
    "role": "wifi",
    "host": "104.21.78.225",
-   "rtt_ms": 148
+   "rtt_ms": 164
+  },
+  {
+   "role": "wifi",
+   "host": "104.21.70.21",
+   "rtt_ms": 180
+  },
+  {
+   "role": "wifi",
+   "host": "144.31.2.33",
+   "rtt_ms": 209
   },
   {
    "role": "wifi",
    "host": "150.40.126.22",
-   "rtt_ms": 229
-  },
-  {
-   "role": "wifi",
-   "host": "150.40.126.19",
    "rtt_ms": 230
   },
   {
    "role": "wifi",
-   "host": "150.40.126.21",
-   "rtt_ms": 231
-  },
-  {
-   "role": "wifi",
    "host": "150.40.126.18",
-   "rtt_ms": 232
+   "rtt_ms": 233
   },
   {
    "role": "wifi",
-   "host": "150.40.126.24",
-   "rtt_ms": 234
+   "host": "150.40.126.21",
+   "rtt_ms": 233
   },
   {
    "role": "mobile",
    "host": "64.188.79.106",
-   "rtt_ms": 86
+   "rtt_ms": 100
   },
   {
    "role": "mobile",
    "host": "31.76.7.154",
-   "rtt_ms": 154
-  },
-  {
-   "role": "mobile",
-   "host": "150.241.101.17",
-   "rtt_ms": 249
+   "rtt_ms": 125
   },
   {
    "role": "mobile",
    "host": "150.241.101.80",
-   "rtt_ms": 274
+   "rtt_ms": 243
   },
   {
    "role": "mobile",
-   "host": "91.240.87.166",
-   "rtt_ms": 316
-  },
-  {
-   "role": "mobile",
-   "host": "91.240.86.12",
-   "rtt_ms": 318
+   "host": "150.241.101.17",
+   "rtt_ms": 251
   },
   {
    "role": "mobile",
    "host": "144.31.50.236",
-   "rtt_ms": 528
+   "rtt_ms": 531
   },
   {
    "role": "mobile",
    "host": "193.163.203.170",
-   "rtt_ms": 5606
+   "rtt_ms": 995
+  },
+  {
+   "role": "mobile",
+   "host": "91.240.86.12",
+   "rtt_ms": 3023
+  },
+  {
+   "role": "mobile",
+   "host": "91.240.87.166",
+   "rtt_ms": 4752
   }
  ]
 }
