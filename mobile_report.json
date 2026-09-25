@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-25T18:13:34Z",
+ "generated": "2026-09-25T19:14:16Z",
  "white_24_count": 10,
  "black_24_count": 75,
  "sni_count": 37,
- "pool_count": 9413,
+ "pool_count": 9397,
  "nodes": [
   {
    "uri": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
@@ -136,13 +136,6 @@
   },
   {
    "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443/",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
-   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1&alpn=h3",
    "source": "igareck_all",
    "mobile": true,
    "via": "in_community_white_list",
@@ -672,7 +665,7 @@
    ]
   }
  ],
- "mobile_count": 38,
+ "mobile_count": 37,
  "black_count": 35,
- "unknown_count": 9340
+ "unknown_count": 9325
 }
