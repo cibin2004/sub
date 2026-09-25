@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T14:11:27Z",
+ "generated": "2026-09-25T16:12:49Z",
  "white_24_count": 10,
  "black_24_count": 75,
  "sni_count": 37,
@@ -43,6 +43,13 @@
     "cidr_white:91.240.86.70",
     "sni_white:hy.quattro-tech.ru"
    ]
+  },
+  {
+   "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=1",
+   "source": "igareck_all",
+   "mobile": true,
+   "via": "in_community_white_list",
+   "details": []
   },
   {
    "uri": "hysteria2://3f63c86c-ac4a-4900-85cf-4fedf93c2ca5@91.240.86.70:22443?insecure=1&sni=off",
@@ -136,13 +143,6 @@
   },
   {
    "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0",
-   "source": "igareck_all",
-   "mobile": true,
-   "via": "in_community_white_list",
-   "details": []
-  },
-  {
-   "uri": "hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org&insecure=0",
    "source": "igareck_all",
    "mobile": true,
    "via": "in_community_white_list",
@@ -495,9 +495,9 @@
    "mobile": false,
    "via": "cidr_black",
    "details": [
-    "cidr_black:46.229.243.81",
-    "cidr_black:46.229.243.81",
-    "cidr_black:46.229.243.81"
+    "cidr_black:162.249.126.80",
+    "cidr_black:162.249.126.80",
+    "cidr_black:162.249.126.80"
    ]
   },
   {
