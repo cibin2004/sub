@@ -71,6 +71,25 @@
   {
    "type": "vless",
    "tag": "Wi-Fi 03",
+   "server": "noisy-term-e657.airdrop2014aa5168.workers.dev",
+   "server_port": 443,
+   "uuid": "5d8eb33a-2166-4daf-88fe-4be5799c493b",
+   "tls": {
+    "enabled": true,
+    "server_name": "noisy-term-e657.airdrop2014aa5168.workers.dev",
+    "insecure": false
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/",
+    "headers": {
+     "Host": "noisy-term-e657.airdrop2014aa5168.workers.dev"
+    }
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "Wi-Fi 04",
    "server": "152.228.162.19",
    "server_port": 80,
    "uuid": "25f86cb1-2140-4085-abcb-c3a0ea7a4be0",
@@ -84,7 +103,7 @@
   },
   {
    "type": "vless",
-   "tag": "Wi-Fi 04",
+   "tag": "Wi-Fi 05",
    "server": "bpb-01c11365.hjdbcvdbkv.workers.dev",
    "server_port": 443,
    "uuid": "2db92da9-8ffb-491b-81d6-6e8d50876020",
@@ -103,26 +122,20 @@
   },
   {
    "type": "vless",
-   "tag": "Wi-Fi 05",
-   "server": "square-salad-ebde.zdfgvccfguuyggg.workers.dev",
-   "server_port": 8443,
-   "uuid": "31aa0950-eb19-45ff-94a2-af416deb3b90",
+   "tag": "Wi-Fi 06",
+   "server": "144.31.5.64",
+   "server_port": 443,
+   "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+   "flow": "xtls-rprx-vision",
    "tls": {
     "enabled": true,
-    "server_name": "SquarE-saLaD-EbDe.ZDFGVcCfgUUYgGG.wOrKeRS.DEV",
+    "server_name": "pl6.moritech.net",
     "insecure": false
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0?ed=8443",
-    "headers": {
-     "Host": "square-salad-ebde.zdfgvccfguuyggg.workers.dev"
-    }
    }
   },
   {
    "type": "vless",
-   "tag": "Wi-Fi 06",
+   "tag": "Wi-Fi 07",
    "server": "143.246.193.215",
    "server_port": 443,
    "uuid": "77da6e30-ad4e-11f1-94d5-525400d1d4f7",
@@ -143,20 +156,26 @@
   },
   {
    "type": "vless",
-   "tag": "Wi-Fi 07",
-   "server": "144.31.5.64",
+   "tag": "Wi-Fi 08",
+   "server": "curly-night-6928.ggdhchjk.workers.dev",
    "server_port": 443,
-   "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-   "flow": "xtls-rprx-vision",
+   "uuid": "4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633",
    "tls": {
     "enabled": true,
-    "server_name": "pl6.moritech.net",
+    "server_name": "curly-night-6928.ggdhchjk.workers.dev",
     "insecure": false
+   },
+   "transport": {
+    "type": "ws",
+    "path": "/sync",
+    "headers": {
+     "Host": "curly-night-6928.ggdhchjk.workers.dev"
+    }
    }
   },
   {
    "type": "vless",
-   "tag": "Wi-Fi 08",
+   "tag": "Wi-Fi 09",
    "server": "aUto-scaLe-238B2B.inFra-coRE-1630dD.WorKerS.DeV",
    "server_port": 443,
    "uuid": "33918b20-9e02-4dc6-8b30-79b2d4b2e0e6",
@@ -175,87 +194,39 @@
   },
   {
    "type": "vless",
-   "tag": "Wi-Fi 09",
-   "server": "144.31.2.33",
+   "tag": "Wi-Fi 10",
+   "server": "144.31.5.3",
    "server_port": 443,
    "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
    "flow": "xtls-rprx-vision",
    "tls": {
     "enabled": true,
-    "server_name": "pl3.moritech.net",
+    "server_name": "pl4.moritech.net",
     "insecure": false
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "Wi-Fi 10",
-   "server": "noisy-term-e657.airdrop2014aa5168.workers.dev",
-   "server_port": 443,
-   "uuid": "5d8eb33a-2166-4daf-88fe-4be5799c493b",
-   "tls": {
-    "enabled": true,
-    "server_name": "noisy-term-e657.airdrop2014aa5168.workers.dev",
-    "insecure": false
-   },
-   "transport": {
-    "type": "ws",
-    "path": "/",
-    "headers": {
-     "Host": "noisy-term-e657.airdrop2014aa5168.workers.dev"
-    }
    }
   },
   {
    "type": "vless",
    "tag": "Wi-Fi 11",
-   "server": "150.40.126.22",
-   "server_port": 443,
-   "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+   "server": "square-salad-ebde.zdfgvccfguuyggg.workers.dev",
+   "server_port": 8443,
+   "uuid": "31aa0950-eb19-45ff-94a2-af416deb3b90",
    "tls": {
     "enabled": true,
-    "server_name": "rs4.univesalsrv.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs",
-     "short_id": "861ac7d66953e55f"
-    }
+    "server_name": "SquarE-saLaD-EbDe.ZDFGVcCfgUUYgGG.wOrKeRS.DEV",
+    "insecure": false
    },
    "transport": {
-    "type": "grpc",
-    "service_name": "media.v1.StreamService"
+    "type": "ws",
+    "path": "/eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0?ed=8443",
+    "headers": {
+     "Host": "square-salad-ebde.zdfgvccfguuyggg.workers.dev"
+    }
    }
   },
   {
    "type": "vless",
    "tag": "Wi-Fi 12",
-   "server": "150.40.126.18",
-   "server_port": 443,
-   "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-   "tls": {
-    "enabled": true,
-    "server_name": "rs1.univesalsrv.com",
-    "utls": {
-     "enabled": true,
-     "fingerprint": "chrome"
-    },
-    "reality": {
-     "enabled": true,
-     "public_key": "upIzyaSbVz2ZK6KfGtXmPl_-sCwn8XLDyFDH5CsL9iY",
-     "short_id": "ed0cd5cc2e26e6e7"
-    }
-   },
-   "transport": {
-    "type": "grpc",
-    "service_name": "node.v2.ObjectService"
-   }
-  },
-  {
-   "type": "vless",
-   "tag": "Wi-Fi 13",
    "server": "150.40.126.24",
    "server_port": 443,
    "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
@@ -279,7 +250,7 @@
   },
   {
    "type": "vless",
-   "tag": "Wi-Fi 14",
+   "tag": "Wi-Fi 13",
    "server": "150.40.126.19",
    "server_port": 443,
    "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
@@ -303,26 +274,50 @@
   },
   {
    "type": "vless",
-   "tag": "Wi-Fi 15",
-   "server": "150.40.126.21",
+   "tag": "Wi-Fi 14",
+   "server": "150.40.126.18",
    "server_port": 443,
    "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
    "tls": {
     "enabled": true,
-    "server_name": "rs3.univesalsrv.com",
+    "server_name": "rs1.univesalsrv.com",
     "utls": {
      "enabled": true,
      "fingerprint": "chrome"
     },
     "reality": {
      "enabled": true,
-     "public_key": "gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ",
-     "short_id": "35d05b666e2c6cdf"
+     "public_key": "upIzyaSbVz2ZK6KfGtXmPl_-sCwn8XLDyFDH5CsL9iY",
+     "short_id": "ed0cd5cc2e26e6e7"
     }
    },
    "transport": {
     "type": "grpc",
-    "service_name": "edge.v2.FeedService"
+    "service_name": "node.v2.ObjectService"
+   }
+  },
+  {
+   "type": "vless",
+   "tag": "Wi-Fi 15",
+   "server": "150.40.126.22",
+   "server_port": 443,
+   "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+   "tls": {
+    "enabled": true,
+    "server_name": "rs4.univesalsrv.com",
+    "utls": {
+     "enabled": true,
+     "fingerprint": "chrome"
+    },
+    "reality": {
+     "enabled": true,
+     "public_key": "sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs",
+     "short_id": "861ac7d66953e55f"
+    }
+   },
+   "transport": {
+    "type": "grpc",
+    "service_name": "media.v1.StreamService"
    }
   },
   {
